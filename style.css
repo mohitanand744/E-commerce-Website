@@ -63,8 +63,8 @@ nav {
   z-index: 9999;
 
   & .logo-container {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    aspect-ratio: 1;
 
     & img {
       width: 100%;
@@ -161,7 +161,7 @@ nav {
 
 .responsive-search-container {
   position: fixed;
-  top: 99px;
+  top: 85px;
   display: none;
   align-items: center;
   gap: 1rem;

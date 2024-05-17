@@ -1,24 +1,15 @@
-@media screen and (width < 848px) {
-  html {
-    font-size: 58.5%;
-  }
+@media screen and (width < 758px) {
   nav {
-    & .signUpContainer {
-      display: none;
-    }
-    & .menu {
-      display: block;
+    & .logo-container {
+      width: 45px;
     }
   }
 }
 
 @media screen and (width < 648px) {
   html {
-    font-size: 54.5%;
+    font-size: 56.5%;
   }
-}
-
-@media screen and (width < 548px) {
   nav {
     box-shadow: none;
     border-radius: 0;
@@ -27,11 +18,15 @@
     -ms-border-radius: 0;
     -o-border-radius: 0;
 
-    & .search-container{
-        display: none;
+    & .search-container {
+      display: none;
     }
   }
-  .responsive-search-container{
+  .responsive-search-container {
     display: flex;
+    box-shadow: #0c188198 0px 11px 23px 1px;
   }
+}
+
+@media screen and (width < 548px) {
 }
