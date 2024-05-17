@@ -1,0 +1,37 @@
+@media screen and (width < 848px) {
+  html {
+    font-size: 58.5%;
+  }
+  nav {
+    & .signUpContainer {
+      display: none;
+    }
+    & .menu {
+      display: block;
+    }
+  }
+}
+
+@media screen and (width < 648px) {
+  html {
+    font-size: 54.5%;
+  }
+}
+
+@media screen and (width < 548px) {
+  nav {
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+
+    & .search-container{
+        display: none;
+    }
+  }
+  .responsive-search-container{
+    display: flex;
+  }
+}

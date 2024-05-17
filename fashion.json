@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "name": "men",
+        "category": "T-shirts",
+        "price": 699,
+        "description": "Men's Regular Fit Polo.",
+        "image": "https://m.media-amazon.com/images/I/71eUwDk8z+L._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 2,
+        "name": "men",
+        "category": "T-shirts",
+        "price": 899,
+        "description": "T-Shirt for Mens Double Stripes on Chest",
+        "image": "https://m.media-amazon.com/images/I/81586rb63ZL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 3,
+        "name": "men",
+        "category": "T-shirts",
+        "price": 889,
+        "description": "Camouflage Men's Athleisure wear T-Shirt.",
+        "image": "https://m.media-amazon.com/images/I/71AL7OCPCzL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 4,
+        "name": "men",
+        "category": "T-shirts",
+        "price": 1189,
+        "description": "Regular Fit Striped Round Neck Half Sleeve T-Shirt.",
+        "image": "https://m.media-amazon.com/images/I/71q1Rk+VZnL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 5,
+        "name": "men",
+        "category": "T-shirts",
+        "price": 789,
+        "description": "Men's Short Sleeve with Round Neck, Oversized Longline Drop...",
+        "image": "https://m.media-amazon.com/images/I/71cQVQcdp6L._AC_UL480_QL65_.jpg"
+    },
+    {
+        "id": 6,
+        "name": "women",
+        "category": "T-shirts",
+        "price": 1999,
+        "description": "Women Printed Cotton Blend T-Shirt for Summer.",
+        "image": "https://m.media-amazon.com/images/I/71v3CG1togL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 7,
+        "name": "women",
+        "category": "T-shirts",
+        "price": 999,
+        "description": "Women's Cotton Stretch Regular Fit T-Shirt.",
+        "image": "https://m.media-amazon.com/images/I/41Zf1+rmL0L._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 8,
+        "name": "women",
+        "category": "T-shirts",
+        "price": 1129,
+        "description": "Women Cottonblend Half Sleeve Oversized Regular Fit T-Shirts.",
+        "image": "https://m.media-amazon.com/images/I/715-Z-aOIhL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 9,
+        "name": "women",
+        "category": "T-shirts",
+        "price": 1499,
+        "description": "Women T-Shirt || Tshirt for Womens || Half Sleeve T Shirt for.",
+        "image": "https://m.media-amazon.com/images/I/717Szt9URYL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 10,
+        "name": "women",
+        "category": "T-shirts",
+        "price": 1999,
+        "description": "Women T-Shirt || Tshirt for Womens || Half Sleeve T Shirt for.",
+        "image": "https://m.media-amazon.com/images/I/71v3CG1togL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 11,
+        "name": "women",
+        "category": "shoes",
+        "price": 1539,
+        "description": "Women's Buckle Faux Leather Boots.",
+        "image": "https://m.media-amazon.com/images/I/715k6NL7X7L._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 12,
+        "name": "women",
+        "category": "shoes",
+        "price": 2599,
+        "description": "Women & Girls White Casual Sports Shoes Sneakers.",
+        "image": "https://m.media-amazon.com/images/I/41LWZXfq2tL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 13,
+        "name": "women",
+        "category": "shoes",
+        "price": 2199,
+        "description": "Comfortable Lightweight Casual Lace-up Sneaker for Women.",
+        "image": "https://m.media-amazon.com/images/I/41yiNJsChtL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 14,
+        "name": "women",
+        "category": "shoes",
+        "price": 1599,
+        "description": "Women and Girls Sneakers, Walking Gym Running Shoes.",
+        "image": "https://m.media-amazon.com/images/I/71IUEjmjf3L._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 15,
+        "name": "womwn",
+        "category": "shoes",
+        "price": 1299,
+        "description": "Women Ribbon lace Shoes for Girls Printed Chunky Sole Casual...",
+        "image": "https://m.media-amazon.com/images/I/711u5BRS8JL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 16,
+        "name": "men",
+        "category": "shoes",
+        "price": 3599,
+        "description": "Trending & Stylish with Aimix Sole Light Weighted Mesh Running.",
+        "image": "https://m.media-amazon.com/images/I/71KwPG1Hq4L._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 17,
+        "name": "men",
+        "category": "shoes",
+        "price": 2499,
+        "description": "New Classic Fashion Comfotable Lightweight Casual Sneakers for...",
+        "image": "https://m.media-amazon.com/images/I/71KTt9PYczL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 18,
+        "name": "men",
+        "category": "shoes",
+        "price": 3599,
+        "description": "Men's Korean Style High Top Platform Fashion...",
+        "image": "https://m.media-amazon.com/images/I/71TawoxTk6L._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 19,
+        "name": "men",
+        "category": "shoes",
+        "price": 3599,
+        "description": "Men's Synthetic Lace-Up Running Shoes Gym Shoes Training Shoes...",
+        "image": "https://m.media-amazon.com/images/I/51fuT6wC20L._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id": 20,
+        "name": "men",
+        "category": "shoes",
+        "price": 3599,
+        "description": "Hakkel Soft Cushioned Insole Walking Breathable Fashion Tren...",
+        "image": "https://m.media-amazon.com/images/I/71FChUyk3ML._AC_UL480_QL65_.jpg"
+    }
+]
