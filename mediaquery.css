@@ -41,7 +41,10 @@
 }
 
 @media screen and (width < 548px) {
+  html{
+    font-size: 52.5%;
+  }
   .slides-container{
-    height: 30vh;
+    height: 32vh;
   }
 }

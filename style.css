@@ -251,19 +251,24 @@ nav {
   & .btn-container {
     & .btn {
       position: absolute;
-      padding: 0.6rem 1.4rem;
+      width: 4.2rem;
+      height: 4.2rem;
       border-radius: 50%;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
-      font-size: 2rem;
+      font-size: 2.5rem;
       top: 36%;
       transition: all 0.2s ease;
       -webkit-transition: all 0.2s ease;
       -moz-transition: all 0.2s ease;
       -ms-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #d3d3d3;
 
       &:hover {
         background: linear-gradient(10deg, #7700a7, #1e02d8 60%, #00949e);
@@ -281,3 +286,24 @@ nav {
 }
 
 /***** End Image slider *****/
+
+/***** Animations *****/
+
+@keyframes next1 {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes next2 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+/***** End Animations *****/
