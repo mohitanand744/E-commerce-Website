@@ -206,7 +206,7 @@ nav {
     height: 100%;
     object-fit: cover;
     object-position: top;
-    mask-image: linear-gradient(to bottom, #000000d2 40%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000000d2 35%, transparent 100%);
   }
 
   & img:not(.active) {

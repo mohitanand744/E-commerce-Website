@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   let startSlideShow = () => {
-    slideInterval = setInterval(nextSlide, 3000); // Change slide every 3 seconds
+    slideInterval = setInterval(nextSlide, 2500);
   };
 
   let resetSlideShow = () => {
