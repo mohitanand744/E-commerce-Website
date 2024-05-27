@@ -257,7 +257,7 @@ nav {
       -moz-transition: width 0.5s ease;
       -ms-transition: width 0.5s ease;
       -o-transition: width 0.5s ease;
-}
+    }
 
     & .dot.activeDot {
       width: 2rem;
@@ -266,7 +266,7 @@ nav {
       -moz-border-radius: 5rem;
       -ms-border-radius: 5rem;
       -o-border-radius: 5rem;
-      background: linear-gradient(14deg, #5c5c5c, #ffffff);
+      background: linear-gradient(14deg, #070707, #ffffff);
     }
   }
 
@@ -309,9 +309,50 @@ nav {
 
 /***** End Image slider *****/
 
+/***** Section filter Products *****/
 
+.ProductsCategoryContainer {
+  margin-top: 12.5rem;
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 
+  & .Category:nth-child(1) {
+    & img {
+      width: 7rem;
+    }
+  }
 
+  & .Category:nth-child(4){
+
+    & img{
+      width: 9rem;
+    }
+  }
+  & .Category {
+    width: 6rem;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    & img {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    & p {
+      font-size: 1.5rem;
+      color: #fff;
+    }
+  }
+}
+
+/***** End Section filter Products *****/
 
 /***** Animations *****/
 
