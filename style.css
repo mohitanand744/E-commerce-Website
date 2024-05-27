@@ -200,17 +200,38 @@ nav {
   height: 60vh;
   overflow: hidden;
 
-  & img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
-    mask-image: linear-gradient(to bottom, #000000d2 35%, transparent 100%);
-  }
+  & .slider-images {
+    & img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+      mask-image: linear-gradient(to bottom, #000000d2 35%, transparent 100%);
+      transition: opacity 1.5s;
+      -webkit-transition: opacity 1.5s;
+      -moz-transition: opacity 1.5s;
+      -ms-transition: opacity 1.5s;
+      -o-transition: opacity 1.5s;
+    }
 
-  & img:not(.active) {
-    left: -100%;
+    & img {
+      transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      -moz-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+      -o-transform: translateX(-100%);
+      opacity: 0.5;
+    }
+
+    & img.active {
+      transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+      opacity: 1;
+    }
   }
 
   & .dots-container {
@@ -225,18 +246,18 @@ nav {
     & .dot {
       width: 1rem;
       height: 1rem;
-      border: 3px solid #fff;
+      border: 3px solid #e6e6e6;
       border-radius: 50%;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
-      transition: width 0.4s ease;
-      -webkit-transition: width 0.4s ease;
-      -moz-transition: width 0.4s ease;
-      -ms-transition: width 0.4s ease;
-      -o-transition: width 0.4s ease;
-    }
+      transition: width 0.5s ease;
+      -webkit-transition: width 0.5s ease;
+      -moz-transition: width 0.5s ease;
+      -ms-transition: width 0.5s ease;
+      -o-transition: width 0.5s ease;
+}
 
     & .dot.activeDot {
       width: 2rem;
@@ -245,20 +266,21 @@ nav {
       -moz-border-radius: 5rem;
       -ms-border-radius: 5rem;
       -o-border-radius: 5rem;
+      background: linear-gradient(14deg, #5c5c5c, #ffffff);
     }
   }
 
   & .btn-container {
     & .btn {
       position: absolute;
-      width: 4.2rem;
-      height: 4.2rem;
+      width: 35px;
+      height: 35px;
       border-radius: 50%;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
-      font-size: 2.5rem;
+      font-size: 2.1rem;
       top: 36%;
       transition: all 0.2s ease;
       -webkit-transition: all 0.2s ease;
@@ -268,7 +290,7 @@ nav {
       display: flex;
       justify-content: center;
       align-items: center;
-      color: #d3d3d3;
+      color: #ffffff;
 
       &:hover {
         background: linear-gradient(10deg, #7700a7, #1e02d8 60%, #00949e);
@@ -286,6 +308,10 @@ nav {
 }
 
 /***** End Image slider *****/
+
+
+
+
 
 /***** Animations *****/
 
