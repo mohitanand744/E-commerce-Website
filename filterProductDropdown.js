@@ -4,16 +4,6 @@ export let filterProductDropdown = () => {
   let categoryContainer = document.querySelector(".categoryContainer");
   let Category = document.querySelectorAll(".Category");
 
-  window.addEventListener("scroll", () => {
-    if (window.scrollY >= 240) {
-      activeFilterbtn.style.display = "flex";
-    } else {
-      activeFilterbtn.style.display = "none";
-      categoryContainer.style.display = "none";
-      deactivateFilterbtn.style.display = "none";
-    }
-  });
-
   activeFilterbtn.addEventListener("click", () => {
     categoryContainer.style.width = "10rem";
     Category.forEach((Category) => {
