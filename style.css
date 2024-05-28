@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -16,6 +18,11 @@ body {
 }
 
 /***** Repeat code *****/
+
+.hover {
+  filter: drop-shadow(0 0 0.85rem rgb(212, 0, 255));
+  -webkit-filter: drop-shadow(0 0 0.85rem rgb(212, 0, 255));
+}
 
 .btn {
   padding: 0.4rem 1.6rem;
@@ -62,7 +69,7 @@ nav {
   gap: 2rem;
   position: fixed;
   top: 0;
-  z-index: 9999;
+  z-index: 99999;
 
   & .logo-container {
     width: 55px;
@@ -169,10 +176,10 @@ nav {
   display: none;
   align-items: center;
   gap: 1rem;
-  background: #00000059;
+  background: #000000e5;
   padding: 1.7rem 2rem;
-  z-index: 9999;
   width: 100%;
+  z-index: 99999;
 
   & i {
     font-size: 2rem;
@@ -199,7 +206,7 @@ nav {
   width: 100%;
   height: 60vh;
   overflow: hidden;
-
+  z-index: inheri-1;
   & .slider-images {
     & img {
       position: absolute;
@@ -315,7 +322,7 @@ nav {
 .ProductsCategoryContainer {
   margin-top: 12.5rem;
   display: flex;
-  gap: 6rem;
+  gap: 4rem;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -353,9 +360,76 @@ nav {
       -o-transform: translateY(-1rem);
     }
   }
+
+  & .Category.activeCategory {
+    filter: drop-shadow(0 0 0.85rem rgb(212, 0, 255));
+    -webkit-filter: drop-shadow(0 0 0.85rem rgb(212, 0, 255));
+  }
 }
 
 /***** End Section filter Products *****/
+
+/***** Section Best of the day *****/
+
+.bestOfTheDay {
+  width: 97%;
+  margin: 5rem auto;
+  padding: 2rem 4rem;
+  background: #00000057;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+
+  & .title {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+  }
+
+  & .productContainer {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    & .product {
+      width: 20rem;
+      border: 2px solid #fff;
+      border-radius: 2rem;
+      -webkit-border-radius: 2rem;
+      -moz-border-radius: 2rem;
+      -ms-border-radius: 2rem;
+      -o-border-radius: 2rem;
+      display: flex;
+      flex-direction: column;
+      padding: 0.5rem;
+
+      & .productImage {
+        width: 18rem;
+        padding: 1rem;
+        & img {
+          width: 100%;
+        }
+      }
+
+      & .Description {
+        color: #fff;
+        text-align: center;
+        font-size: 1.4rem;
+
+        & .price {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+/***** End Section Best of the day *****/
 
 /***** Animations *****/
 
