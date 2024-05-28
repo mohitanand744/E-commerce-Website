@@ -51,10 +51,4 @@
   .slides-container {
     height: 37vh;
   }
-  .ProductsCategoryContainer {
- 
- & .Category {
-      width: 5rem;
-    }
-  }
 }
