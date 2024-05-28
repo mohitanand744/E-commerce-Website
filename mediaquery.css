@@ -10,11 +10,6 @@
   .slides-container {
     height: 50vh;
   }
-  .ProductsCategoryContainer {
-    & .Category {
-      width: 6rem;
-    }
-  }
 }
 
 @media screen and (width < 648px) {
