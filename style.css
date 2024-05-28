@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap");
 
 * {
   margin: 0;
@@ -14,7 +15,7 @@ html {
 body {
   width: 100%;
   height: 100vh;
-  background: #080c31;
+  background: #f1f2f4;
 }
 
 /***** Repeat code *****/
@@ -64,19 +65,19 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px 2%;
-  background: #080c31;
-  box-shadow: #0c1781 0px 2px 29px 5px;
+  background: #fff;
   gap: 2rem;
   position: fixed;
   top: 0;
   z-index: 99999;
 
   & .logo-container {
-    width: 55px;
-    aspect-ratio: 1;
-
-    & img {
-      width: 100%;
+    & h2 {
+      font-size: 4rem;
+      background: linear-gradient(144deg, #b500fd, #5b42f3 60%, #00ddeb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: "Rubik Glitch Pop", system-ui;
     }
   }
 
@@ -84,7 +85,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: #00000059;
+    background: #e6ecfa;
     padding: 1rem 2rem;
     border-radius: 4rem;
     -webkit-border-radius: 4rem;
@@ -99,12 +100,12 @@ nav {
 
     & #userInput {
       width: 100%;
-      padding: 0.5rem 1rem;
+      padding: 0.5rem;
       background: transparent;
       border: none;
       outline: none;
       font-size: 2rem;
-      color: #fff;
+      color: #000000;
     }
   }
   & .addtocard-Container {
@@ -115,17 +116,17 @@ nav {
     color: #fff;
     position: relative;
 
-    & i {
-      font-size: 2.6rem;
+    & img {
+      width: 3.5rem;
     }
 
     & #cartValue {
       position: absolute;
-      top: -14px;
+      top: -9px;
       font-size: 1.8rem;
-      right: -8px;
-      width: 22px;
-      height: 22px;
+      right: -2px;
+      width: 26px;
+      height: 26px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -172,7 +173,7 @@ nav {
 
 .responsive-search-container {
   position: fixed;
-  top: 85px;
+  top: 77px;
   display: none;
   align-items: center;
   gap: 1rem;
@@ -204,9 +205,8 @@ nav {
   position: relative;
   top: 97px;
   width: 100%;
-  height: 60vh;
+  height: 62vh;
   overflow: hidden;
-  z-index: inheri-1;
   & .slider-images {
     & img {
       position: absolute;
@@ -214,7 +214,7 @@ nav {
       height: 100%;
       object-fit: cover;
       object-position: top;
-      mask-image: linear-gradient(to bottom, #000000d2 35%, transparent 100%);
+      mask-image: linear-gradient(to bottom, #000000d2 60%, transparent 100%);
       transition: opacity 1.5s;
       -webkit-transition: opacity 1.5s;
       -moz-transition: opacity 1.5s;
@@ -253,18 +253,17 @@ nav {
     & .dot {
       width: 1rem;
       height: 1rem;
-      border: 3px solid #e6e6e6;
+      border: 3px solid #000000;
       border-radius: 50%;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
-      transition: width 1s ease, border-radius 1s ease, background 1s ease;
-      -webkit-transition: width 1s ease, border-radius 1s ease,
-        background 1s ease;
-      -moz-transition: width 1s ease, border-radius 1s ease, background 1s ease;
-      -ms-transition: width 1s ease, border-radius 1s ease, background 1s ease;
-      -o-transition: width 1s ease, border-radius 1s ease, background 1s ease;
+      transition: all 1s;
+      -webkit-transition: all 1s;
+      -moz-transition: all 1s;
+      -ms-transition: all 1s;
+      -o-transition: all 1s;
     }
 
     & .dot.activeDot {
@@ -274,7 +273,7 @@ nav {
       -moz-border-radius: 5rem;
       -ms-border-radius: 5rem;
       -o-border-radius: 5rem;
-      background: linear-gradient(14deg, #070707, #ffffff);
+      background: #7700ff;
     }
   }
 
@@ -319,51 +318,97 @@ nav {
 
 /***** Section filter Products *****/
 
-.ProductsCategoryContainer {
-  margin-top: 12.5rem;
+.ProductsCategoryContainer_mainProductContainer {
+  margin-top: 13rem;
   display: flex;
   gap: 4rem;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 
-  & .Category {
-    width: 7rem;
-    object-fit: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.2rem;
+  & .filter-btns {
+    position: fixed;
+    left: 3px;
+    top: 22%;
 
-    & img {
-      width: 100%;
-      object-fit: cover;
-      transition: all 0.2s ease;
-      -webkit-transition: all 0.2s ease;
-      -moz-transition: all 0.2s ease;
-      -ms-transition: all 0.2s ease;
-      -o-transition: all 0.2s ease;
+    & .activeFilterbtn {
+      display: none;
+      font-size: 2.7rem;
+      font-weight: bold;
+      animation: moveRight 0.7s linear infinite alternate;
+      -webkit-animation: moveRight 0.7s linear infinite alternate;
+      position: relative;
+
+      &::after {
+        content: "Filter Products";
+        font-size: 1.4rem;
+        width: 12rem;
+        position: absolute;
+        top: -27px;
+        text-align: center;
+        background: linear-gradient(124deg, #b500fd, #5b42f3 60%, #00a6c4);
+        padding: 0.5rem;
+        border-radius: 1rem;
+        color: #fff;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+      }
     }
-
-    & p {
-      font-weight: 500;
-      font-size: 1.7rem;
-      color: #fff;
-    }
-
-    &:hover img {
-      transform: translateY(-1rem);
-      -webkit-transform: translateY(-1rem);
-      -moz-transform: translateY(-1rem);
-      -ms-transform: translateY(-1rem);
-      -o-transform: translateY(-1rem);
+    & .deactivateFilterbtn {
+      display: none;
     }
   }
 
-  & .Category.activeCategory {
-    filter: drop-shadow(0 0 0.85rem rgb(212, 0, 255));
-    -webkit-filter: drop-shadow(0 0 0.85rem rgb(212, 0, 255));
+  .categoryContainer {
+    display: none;
+    border-radius: 2rem;
+    padding: 2rem;
+    background: #fff;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+    position: fixed;
+    left: 1rem;
+    top: 25%;
+
+    & .Category {
+      width: 7rem;
+      object-fit: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.2rem;
+
+      & img {
+        width: 100%;
+        object-fit: cover;
+        transition: all 0.2s ease;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+      }
+
+      & p {
+        font-weight: 600;
+        font-size: 1.7rem;
+        color: #000000;
+      }
+
+      &:hover img {
+        transform: translateY(-1rem);
+        -webkit-transform: translateY(-1rem);
+        -moz-transform: translateY(-1rem);
+        -ms-transform: translateY(-1rem);
+        -o-transform: translateY(-1rem);
+      }
+    }
   }
 }
 
@@ -372,10 +417,10 @@ nav {
 /***** Section Best of the day *****/
 
 .bestOfTheDay {
-  width: 97%;
+  flex: 1;
   margin: 5rem auto;
   padding: 2rem 4rem;
-  background: #00000057;
+  background: #fff;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
@@ -383,7 +428,7 @@ nav {
   -o-border-radius: 2rem;
 
   & .title {
-    color: #fff;
+    color: #636363;
     font-size: 1.5rem;
     padding: 2rem 0;
   }
@@ -398,7 +443,7 @@ nav {
 
     & .product {
       width: 20rem;
-      border: 2px solid #fff;
+      height: 25rem;
       border-radius: 2rem;
       -webkit-border-radius: 2rem;
       -moz-border-radius: 2rem;
@@ -406,18 +451,25 @@ nav {
       -o-border-radius: 2rem;
       display: flex;
       flex-direction: column;
-      padding: 0.5rem;
+      justify-content: space-between;
+      padding: 0.8rem;
+      box-shadow: 0 0 10px 2px #27272742;
 
       & .productImage {
         width: 18rem;
-        padding: 1rem;
+        height: 17rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         & img {
           width: 100%;
+          object-fit: cover;
         }
       }
 
       & .Description {
-        color: #fff;
+        color: #494949;
         text-align: center;
         font-size: 1.4rem;
 
@@ -448,6 +500,23 @@ nav {
   }
   to {
     left: 0%;
+  }
+}
+
+@keyframes moveRight {
+  0% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(8px);
+    -webkit-transform: translateX(8px);
+    -moz-transform: translateX(8px);
+    -ms-transform: translateX(8px);
+    -o-transform: translateX(8px);
   }
 }
 /***** End Animations *****/

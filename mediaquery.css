@@ -1,12 +1,4 @@
-@media screen and (width < 848px) {
-}
-
 @media screen and (width < 758px) {
-  nav {
-    & .logo-container {
-      width: 45px;
-    }
-  }
   .slides-container {
     height: 50vh;
   }
@@ -45,5 +37,17 @@
   }
   .slides-container {
     height: 37vh;
+  }
+  .ProductsCategoryContainer_mainProductContainer {
+    & .filter-btns {
+      top: 30%;
+    }
+  }
+  nav {
+    & .logo-container {
+      & h2 {
+        font-size: 3.4rem;
+      }
+    }
   }
 }
