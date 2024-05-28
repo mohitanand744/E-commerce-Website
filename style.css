@@ -251,9 +251,9 @@ nav {
     justify-content: center;
 
     & .dot {
-      width: 1rem;
-      height: 1rem;
-      border: 3px solid #000000;
+      width: 1.3rem;
+      height: 1.3rem;
+      border: 3px solid #363636;
       border-radius: 50%;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -267,13 +267,13 @@ nav {
     }
 
     & .dot.activeDot {
-      width: 2rem;
+      width: 2.4rem;
       border-radius: 5rem;
       -webkit-border-radius: 5rem;
       -moz-border-radius: 5rem;
       -ms-border-radius: 5rem;
       -o-border-radius: 5rem;
-      background: #7700ff;
+      background: #8c00ff;
     }
   }
 
@@ -330,6 +330,7 @@ nav {
     position: fixed;
     left: 3px;
     top: 22%;
+    cursor: pointer;
 
     & .activeFilterbtn {
       display: none;
@@ -357,29 +358,43 @@ nav {
       }
     }
     & .deactivateFilterbtn {
+      font-size: 2rem;
+      font-weight: bold;
+      animation: moveRight 0.7s linear infinite alternate;
+      -webkit-animation: moveRight 0.7s linear infinite alternate;
+      position: relative;
+    }
+    & .deactivateFilterbtn {
       display: none;
     }
   }
 
   .categoryContainer {
-    display: none;
+    display: flex;
     border-radius: 2rem;
-    padding: 2rem;
+    width: 0rem;
+    padding: 2rem 0;
     background: #fff;
     -webkit-border-radius: 2rem;
     -moz-border-radius: 2rem;
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
     position: fixed;
     left: 1rem;
-    top: 25%;
-
+    top: 27%;
+    transition: width 0.4s ease;
+    -webkit-transition: width 0.4s ease;
+    -moz-transition: width 0.4s ease;
+    -ms-transition: width 0.4s ease;
+    -o-transition: width 0.4s ease;
     & .Category {
       width: 7rem;
       object-fit: cover;
-      display: flex;
+      display: none;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -415,7 +430,9 @@ nav {
 /***** End Section filter Products *****/
 
 /***** Section Best of the day *****/
-
+.main-product-container {
+  margin: 0 1.5rem;
+}
 .bestOfTheDay {
   flex: 1;
   margin: 5rem auto;
@@ -442,7 +459,7 @@ nav {
     flex-wrap: wrap;
 
     & .product {
-      width: 20rem;
+      width: 22rem;
       height: 25rem;
       border-radius: 2rem;
       -webkit-border-radius: 2rem;
@@ -452,7 +469,7 @@ nav {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      padding: 0.8rem;
+      padding: 1rem;
       box-shadow: 0 0 10px 2px #27272742;
 
       & .productImage {
@@ -465,17 +482,28 @@ nav {
         & img {
           width: 100%;
           object-fit: cover;
+          transition: all 0.2s ease;
+          -webkit-transition: all 0.2s ease;
+          -moz-transition: all 0.2s ease;
+          -ms-transition: all 0.2s ease;
+          -o-transition: all 0.2s ease;
         }
       }
 
       & .Description {
         color: #494949;
         text-align: center;
-        font-size: 1.4rem;
-
+        font-size: 1.5rem;
+        & p:nth-child(1) {
+          font-weight: 500;
+          font-size: 1.5rem;
+        }
         & .price {
           font-weight: bold;
         }
+      }
+      &:hover img {
+        scale: 1.04;
       }
     }
   }
@@ -505,11 +533,11 @@ nav {
 
 @keyframes moveRight {
   0% {
-    transform: translateX(0px);
-    -webkit-transform: translateX(0px);
-    -moz-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    -o-transform: translateX(0px);
+    transform: translateX(1px);
+    -webkit-transform: translateX(1px);
+    -moz-transform: translateX(1px);
+    -ms-transform: translateX(1px);
+    -o-transform: translateX(1px);
   }
   100% {
     transform: translateX(8px);
