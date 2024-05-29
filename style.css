@@ -339,7 +339,8 @@ nav {
       font-weight: bold;
       animation: moveRight 0.7s linear infinite alternate;
       -webkit-animation: moveRight 0.7s linear infinite alternate;
-      position: relative;
+      position: fixed;
+      top: 70%;
     }
   }
 

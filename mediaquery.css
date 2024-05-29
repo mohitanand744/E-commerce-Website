@@ -2,6 +2,14 @@
   .slides-container {
     height: 50vh;
   }
+
+  .ProductsCategoryContainer_mainProductContainer {
+    & .filter-btns {
+      & .activeFilterbtn {
+        top: 60%;
+      }
+    }
+  }
 }
 
 @media screen and (width < 648px) {
@@ -37,11 +45,20 @@
   }
   .slides-container {
     height: 37vh;
+    top: 134px;
   }
   nav {
     & .logo-container {
       & h2 {
         font-size: 3.7rem;
+      }
+    }
+  }
+
+  .ProductsCategoryContainer_mainProductContainer {
+    & .filter-btns {
+      & .activeFilterbtn {
+        top: 50%;
       }
     }
   }
