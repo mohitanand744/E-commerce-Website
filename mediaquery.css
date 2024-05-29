@@ -58,7 +58,7 @@
   .ProductsCategoryContainer_mainProductContainer {
     & .filter-btns {
       & .activeFilterbtn {
-        top: 50%;
+        top: 55%;
       }
     }
   }
