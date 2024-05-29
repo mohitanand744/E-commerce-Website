@@ -13,12 +13,18 @@ export let filterProductDropdown = () => {
     deactivateFilterbtn.style.display = "flex";
   });
 
-  deactivateFilterbtn.addEventListener("click", () => {
+  let closeDropDown = () => {
     categoryContainer.style.width = "0rem";
-    Category.forEach((Category) => {
-      Category.style.display = "none";
+    Category.forEach((category) => {
+      category.style.display = "none";
     });
     activeFilterbtn.style.display = "flex";
     deactivateFilterbtn.style.display = "none";
+  };
+
+  deactivateFilterbtn.addEventListener("click", closeDropDown);
+
+  Category.forEach((category) => {
+    category.addEventListener("click", closeDropDown);
   });
 };

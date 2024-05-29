@@ -22,7 +22,7 @@
   }
   .responsive-search-container {
     display: flex;
-    box-shadow: #0c188198 0px 0px 19px 3px;
+    top: 75px;
   }
   .slides-container {
     top: 138px;
@@ -38,15 +38,10 @@
   .slides-container {
     height: 37vh;
   }
-  .ProductsCategoryContainer_mainProductContainer {
-    & .filter-btns {
-      top: 30%;
-    }
-  }
   nav {
     & .logo-container {
       & h2 {
-        font-size: 3.4rem;
+        font-size: 3.7rem;
       }
     }
   }
