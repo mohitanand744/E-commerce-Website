@@ -13,7 +13,7 @@
         "category": "T-shirts",
         "price": 899,
         "description": "T-Shirt for Mens Double Stripes on Chest",
-        "image": "https://m.media-amazon.com/images/I/81586rb63ZL._AC_UL480_FMwebp_QL65_.jpg"
+        "image": "https://m.media-amazon.com/images/I/51byp5tQ86L._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
         "id": 3,
@@ -29,7 +29,7 @@
         "category": "T-shirts",
         "price": 1189,
         "description": "Regular Fit Striped Round Neck Half Sleeve T-Shirt.",
-        "image": "https://m.media-amazon.com/images/I/71q1Rk+VZnL._AC_UL480_FMwebp_QL65_.jpg"
+        "image": "https://m.media-amazon.com/images/I/81jCqJRk0ZL._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
         "id": 5,
@@ -92,7 +92,7 @@
         "name": "women",
         "category": "shoes",
         "price": 2599,
-        "description": "Women & Girls White Casual Sports Shoes Sneakers.",
+        "description": "Women White Casual Sports Shoes Sneakers.",
         "image": "https://m.media-amazon.com/images/I/41LWZXfq2tL._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
@@ -113,7 +113,7 @@
     },
     {
         "id": 15,
-        "name": "womwn",
+        "name": "women",
         "category": "shoes",
         "price": 1299,
         "description": "Women Ribbon lace Shoes for Girls Printed Chunky Sole Casual...",
