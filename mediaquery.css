@@ -69,3 +69,9 @@
     font-size: 47.5%;
   }
 }
+
+@media screen and (width < 368px) {
+  html{
+    font-size: 45.5%;
+  }
+}
