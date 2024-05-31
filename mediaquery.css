@@ -30,7 +30,7 @@
   }
   .responsive-search-container {
     display: flex;
-    top: 75px;
+    top: 71px;
   }
   .slides-container {
     top: 138px;
@@ -45,7 +45,7 @@
   }
   .slides-container {
     height: 37vh;
-    top: 134px;
+    top: 130px;
   }
   nav {
     & .logo-container {
@@ -61,5 +61,11 @@
         top: 55%;
       }
     }
+  }
+}
+
+@media screen and (width < 438px) {
+  html{
+    font-size: 47.5%;
   }
 }

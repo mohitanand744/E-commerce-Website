@@ -20,6 +20,7 @@
           id="userInput"
           placeholder="Search for Products..."
         />
+        <p class="clearSearchInput">&#x274C;</p>
       </div>
       <div class="right">
         <div class="addtocard-Container">
@@ -79,7 +80,6 @@
         <div class="activeFilterbtn">&#10095;</div>
       </div>
       <div class="categoryContainer shadow">
-        <div class="deactivateFilterbtn">&#x274C;</div>
         <div class="Category">
           <img src="./public/Fashion.webp" alt="Fashion" />
           <p>Fashion</p>
@@ -96,21 +96,85 @@
           <img src="./public/grocery.webp" alt="Fashion" />
           <p>Grocery</p>
         </div>
+        <div class="deactivateFilterbtn">&#x274C;</div>
       </div>
       <div class="main-product-container">
-        <div class="bestOfTheDay">
+        <div class="Container">
           <div class="title">
-            <h2>Best Women Footwear</h2>
+            <h2>Best Women's Footwear</h2>
           </div>
 
           <div class="womenFootwearproductContainer"></div>
         </div>
-        <div class="bestOfTheDay">
+        <div class="Container">
           <div class="title">
-            <h2>Best Men T-shirt</h2>
+            <h2>Best Men's T-shirt</h2>
           </div>
 
           <div class="menT-shirtproductContainer"></div>
+        </div>
+
+        <div class="products_Container Container">
+          <div class="title">
+            <h2>Best Men's Footwear Collection</h2>
+          </div>
+          <div class="menfootwearproductContainer">
+            <div class="product">
+              <div class="productimageContainer">
+                <img
+                  src="https://m.media-amazon.com/images/I/51fuT6wC20L._AC_UL480_FMwebp_QL65_.jpg"
+                  alt="image"
+                />
+              </div>
+              <div class="Description">
+                <p class="desc">
+                  Men's Korean Style High Top Platform Fashion...
+                </p>
+              </div>
+              <div class="rating_Container">
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                <i
+                  class="fa-regular fa-star-half-stroke"
+                  style="color: #ffd43b"
+                ></i
+                ><i class="fa-regular fa-star" style="color: #ffd43b"></i>
+                <span>2578 reviews...</span>
+              </div>
+              <div class="price-Container">
+                <p class="price">₹729</p>
+                <p class="mrp">MRP <span class="org-price"> ₹1129</span></p>
+              </div>
+              <div class="delivery">
+                Get it by <b>Monday</b>, May 13 <b>FREE Delivery</b> over
+                <b>₹499</b>. Fulfilled by Amazon.
+              </div>
+
+              <div class="addtocart_Quentity">
+                <div class="quentity_Container">
+                  <button class="btn plus">
+                    <i
+                      class="fa-solid fa-chevron-up"
+                      style="color: #ffffff"
+                    ></i>
+                  </button>
+                  <p class="quentity">1</p>
+                  <button class="btn minus">
+                    <i
+                      class="fa-solid fa-chevron-down"
+                      style="color: #ffffff"
+                    ></i>
+                  </button>
+                </div>
+
+                <div class="addtocard btn">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  <p>Add To Card</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
