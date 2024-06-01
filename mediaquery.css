@@ -45,7 +45,7 @@
   }
   .slides-container {
     height: 37vh;
-    top: 125px;
+    top: 123px;
   }
   nav {
     & .logo-container {
@@ -73,5 +73,9 @@
 @media screen and (width < 368px) {
   html{
     font-size: 45.5%;
+  }
+  .slides-container {
+    height: 37vh;
+    top: 119px;
   }
 }

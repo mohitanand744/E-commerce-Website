@@ -98,7 +98,7 @@ nav {
       font-size: 2rem;
     }
 
-    & #userInput {
+    & .userInput {
       width: 100%;
       padding: 0.5rem;
       background: transparent;
@@ -191,7 +191,7 @@ nav {
     font-size: 2rem;
   }
 
-  & #userInput {
+  & .userInput {
     width: 100%;
     padding: 0.5rem 1rem;
     background: transparent;
@@ -199,6 +199,10 @@ nav {
     outline: none;
     font-size: 2rem;
     color: #000000;
+  }
+  & .clearSearchInput {
+    font-size: 1.4rem;
+    display: none;
   }
 }
 

@@ -1,22 +1,26 @@
 export let clearSearchInputFunction = () => {
-  const clearSearchInput = document.querySelector(".clearSearchInput");
-  const userInput = document.getElementById("userInput");
+  const userInputs = document.querySelectorAll(".userInput");
 
-  if (clearSearchInput && userInput) { 
+  userInputs.forEach((userInput) => {
+    const clearSearchInput = document.querySelectorAll(".clearSearchInput");
+
     const toggleClearButton = () => {
-      clearSearchInput.style.display = userInput.value ? "block" : "none";
+      clearSearchInput.forEach((clearSearchInput) => {
+        clearSearchInput.style.display = userInput.value ? "block" : "none";
+      });
     };
 
     userInput.addEventListener("input", () => {
       toggleClearButton();
     });
 
-    clearSearchInput.addEventListener("click", () => {
-      userInput.value = "";
-      toggleClearButton();
+    clearSearchInput.forEach((clearSearchInput) => {
+      clearSearchInput.addEventListener("click", () => {
+        userInput.value = "";
+        toggleClearButton();
+      });
     });
 
-  } else {
-    console.error("Required elements not found in the DOM.");
-  }
+    toggleClearButton();
+  });
 };
