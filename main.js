@@ -6,6 +6,7 @@ import { showWomenFootwear } from "./womenFootwear";
 import products from "./fashion.json";
 import { showMenT_shirt } from "./showMenT_shirt";
 import { clearSearchInputFunction } from "./clearSearchInput";
+import { showMenFootwear } from "./showMenFootwear";
 
 
 imageSlider();
@@ -17,3 +18,5 @@ showWomenFootwear(products);
 showMenT_shirt(products);
 
 clearSearchInputFunction();
+
+showMenFootwear(products)

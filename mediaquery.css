@@ -33,7 +33,7 @@
     top: 71px;
   }
   .slides-container {
-    top: 138px;
+    top: 133px;
     height: 48vh;
     z-index: 9999;
   }
@@ -45,7 +45,7 @@
   }
   .slides-container {
     height: 37vh;
-    top: 130px;
+    top: 125px;
   }
   nav {
     & .logo-container {

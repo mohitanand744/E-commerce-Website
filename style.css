@@ -452,7 +452,7 @@ nav {
     display: flex;
     gap: 2rem;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 
     & .product {
@@ -468,6 +468,7 @@ nav {
       justify-content: space-between;
       padding: 1rem;
       box-shadow: 0 0 10px 2px #27272742;
+      overflow: hidden;
 
       & .productImage {
         width: 18rem;
@@ -478,7 +479,7 @@ nav {
 
         & img {
           width: 100%;
-          object-fit: cover;
+          object-fit: contain;
           transition: all 0.2s ease;
           -webkit-transition: all 0.2s ease;
           -moz-transition: all 0.2s ease;
@@ -505,7 +506,7 @@ nav {
     display: flex;
     gap: 2rem;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 
     & .product {
@@ -575,18 +576,18 @@ nav {
       -o-border-radius: 2rem;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
       align-items: center;
       box-shadow: 0 0 10px 2px #2727272f;
       overflow: hidden;
       padding: 1rem;
-      gap: 1rem;
+      gap: 0.7rem;
 
       & .productimageContainer {
-        width: 70%;
-
+        width: 72%;
+        margin-bottom: 1rem;
         & img {
           width: 100%;
+          object-fit: contain;
           object-position: top;
           transition: all 0.2s ease;
           -webkit-transition: all 0.2s ease;
@@ -644,6 +645,7 @@ nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding: 0 1rem;
         width: 100%;
         gap: 2rem;
 
@@ -665,14 +667,20 @@ nav {
         }
 
         & .addtocard {
-          flex: 1;
+          font-size: 2.5rem;
+          height: 40px;
+          width: 40px;
           display: flex;
-          align-items: center;
-          gap: 0.6rem;
           justify-content: center;
-          padding: 1rem;
-          font-size: 1.8rem;
+          align-items: center;
         }
+      }
+
+      & .space {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
       }
 
       &:hover img {
