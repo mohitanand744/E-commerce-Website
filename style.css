@@ -760,14 +760,14 @@ nav {
     overflow-y: hidden;
     align-items: center;
     gap: 2rem;
-    padding: 1.5rem;
+    padding: 1.7rem;
     padding-left: 4 + rem;
     position: relative;
 
     & .product {
       padding: 1rem;
       min-width: 27rem;
-      box-shadow: rgba(149, 157, 165, 0.388) 0px 0px 20px;
+      box-shadow: rgba(149, 157, 165, 0.388) 0px 0px 10px;
       border-radius: 4rem;
       -webkit-border-radius: 4rem;
       -moz-border-radius: 4rem;
