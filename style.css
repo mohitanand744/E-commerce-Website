@@ -711,6 +711,7 @@ Z-index:9999;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
   position: relative;
+  z-index: -1 ;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   & .btn {
