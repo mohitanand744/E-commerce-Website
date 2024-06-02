@@ -19,7 +19,11 @@ body {
 }
 
 /***** Repeat code *****/
-
+.work{
+  font-size: 2rem;
+  font-weight: bold;
+  color: green;
+}
 .shadow {
   filter: drop-shadow(0 0 0.85rem rgba(14, 14, 14, 0.31));
   -webkit-filter: drop-shadow(0 0 0.85rem rgba(14, 14, 14, 0.31));
