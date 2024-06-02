@@ -355,6 +355,7 @@ nav {
       position: fixed;
       color: #505050;
       top: 70%;
+Z-index:9999;
     }
   }
 
