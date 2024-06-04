@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shopping Site</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo-container">
+        <a href="/">
+          <h2>RMrt</h2>
+        </a>
+      </div>
+      <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+        <input
+          type="text"
+          class="userInput"
+          placeholder="Search for Products..."
+        />
+        <p class="clearSearchInput">&#x274C;</p>
+      </div>
+      <div class="right">
+        <div class="addtocard-Container">
+          <img src="./public/addtocart.svg" alt="" />
+          <span id="cartValue">0</span>
+        </div>
+        <div class="signUpContainer">
+          <button class="btn">Login</button>
+          <button class="btn">Sign Up</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ! ========== Start Mobile View ========== -->
+
+    <div class="responsive-search-container">
+      <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+      <input
+        type="text"
+        class="userInput"
+        placeholder="Search for Products..."
+      />
+      <p class="clearSearchInput">&#x274C;</p>
+    </div>
+
+    <!-- ! ========== End Mobile View ========== -->
+
+    <!-- ========== Start Products Section ========== -->
+
+    <main>
+      <div class="productContainer">
+        <div class="zoomedImage">
+          <img
+            src="https://m.media-amazon.com/images/I/61XaXHxw9hL._SL1500_.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="images">
+          <div class="box active">
+            <img
+              src="https://m.media-amazon.com/images/I/61XaXHxw9hL._SL1500_.jpg"
+              alt=""
+            />
+          </div>
+          <div class="box">
+            <img
+              src="https://m.media-amazon.com/images/I/71fB3TzszsL._SL1500_.jpg"
+              alt=""
+            />
+          </div>
+          <div class="box">
+            <img
+              src="https://m.media-amazon.com/images/I/71+TtO7SRQL._SL1500_.jpg"
+              alt=""
+            />
+          </div>
+          <div class="box">
+            <img
+              src="https://m.media-amazon.com/images/I/71oG6G6TgGL._SL1500_.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="productDetails">
+          <h2>
+            Fire-Boltt Gladiator 1.96" Biggest Display Smart Watch with
+            Bluetooth Calling, Voice Assistant &123 Sports Modes, 8 Unique UI
+            Interactions, SpO2,
+          </h2>
+          <div class="rating_Container">
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-regular fa-star-half-stroke" style="color: #ffd43b"></i
+            ><i class="fa-regular fa-star" style="color: #ffd43b"></i>
+            <span>2578 reviews...</span>
+          </div>
+          <div class="price-Container">
+            <p class="price">₹729</p>
+            <p class="mrp">MRP <span class="org-price"> ₹1129</span></p>
+          </div>
+          <div class="delivery">
+            Get it by <b>Monday</b>, May 13 <b>FREE Delivery</b> over
+            <b>₹499</b>. Fulfilled by RMrt.
+          </div>
+          <div class="btnsContainer">
+            <div class="addtocard btn">
+              <i class="fa-solid fa-cart-plus"></i> Add To Cart
+            </div>
+            <button class="btn">Buy Now</button>
+          </div>
+        </div>
+
+        <div class="moreDetails">
+          <h2>About this item</h2>
+
+          <ul>
+            <li>
+              Largest 1.96" Display : View bigger on the screen with the
+              industry’s largest 1.96" display covering every edge possible and
+              providing a crystal-clear resolution of 240*282 pixels. 500 Nits
+              Peak Brightness
+            </li>
+            <li>
+              The watch will work on a single charge for about 7 days (without
+              Bluetooth calling) and about 3 Days with Bluetooth calling.
+              Bluetooth Calling Smartwatch - Enjoy seamless connection and
+              bluetooth calling through Fire-Boltt Gladiator Smart Watch
+            </li>
+            <li>
+              Charging Specs - The watch needs to be charged for 3 hours to
+              reach 100%. The charger should be a 3.7V to 5V adapter or any
+              laptop output. For a bare minimum of 20% charge the watch needs to
+              be charged for about 30-40 mins
+            </li>
+            <li>
+              Music Cannot be stored on the watch. Music can be only controlled
+              through the watch. AI Voice Assistant - Now Wake Up Google/Siri
+              Voice Assistant on your phone through the watch.
+            </li>
+            <li>
+              123 Sports Modes To Track - Track each activity in more detail and
+              record the statistics everyday and compare the history of 7 days
+              to know your best results.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <!-- ========== End Products Section ========== -->
+
+    <!-- ! ========== Link javascript ========== -->
+
+    <script type="module" src="fulldetails.js"></script>
+    <script type="module" src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/50f49a27bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

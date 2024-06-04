@@ -37,6 +37,11 @@
     height: 48vh;
     z-index: 9999;
   }
+  main {
+    & .productContainer {
+      margin: 14.4rem auto;
+    }
+  }
 }
 
 @media screen and (width < 548px) {
@@ -80,6 +85,20 @@
 
         & .Description {
           font-size: 1.9rem;
+        }
+      }
+    }
+  }
+
+  main {
+    & .productContainer {
+      & .moreDetails {
+        width: 100%;
+      }
+      & .images {
+        & .box {
+          width: 8rem;
+          height: 8rem;
         }
       }
     }

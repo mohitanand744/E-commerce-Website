@@ -1,3 +1,5 @@
+import { viewFullDetails } from "./viewFullDetails";
+
 let womenFootwearproductContainer = document.querySelector(
   ".womenFootwearproductContainer"
 );
@@ -24,12 +26,18 @@ export let showWomenFootwear = (womenFootwear) => {
     let words = description.split(" ");
 
     // Get the first four words
-   description = words.slice(0, 2).join(" ");
-
+    description = words.slice(0, 2).join(" ");
 
     productCartTemplate.querySelector(".productImage img").src = image;
     productCartTemplate.querySelector(".price").innerText = `From ₹${price}`;
     productCartTemplate.querySelector(".Desc").innerText = `${description}...`;
+    productCartTemplate.querySelector("#cart").setAttribute("id", `cart${id}`);
+
+    let productCart = productCartTemplate.querySelector(`#cart${id}`);
+
+    productCart.addEventListener("click", () => {
+      viewFullDetails(id);
+    });
 
     womenFootwearproductContainer.append(productCartTemplate);
   });

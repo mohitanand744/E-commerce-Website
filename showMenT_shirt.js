@@ -1,3 +1,5 @@
+import { viewFullDetails } from "./viewFullDetails";
+
 let showMenT_shirtProductContainer = document.querySelector(
   ".menT-shirtproductContainer"
 );
@@ -29,6 +31,14 @@ export let showMenT_shirt = (MenT_shirt) => {
     cartTemplateClone.querySelector(".productImage img").src = image;
     cartTemplateClone.querySelector(".price").innerText = `From ₹${price}`;
     cartTemplateClone.querySelector(".Desc").innerText = `${description}...`;
+    cartTemplateClone.querySelector("#cart").setAttribute("id", `cart${id}`);
+
+
+    let productCart = cartTemplateClone.querySelector(`#cart${id}`);
+
+    productCart.addEventListener("click", () => {
+      viewFullDetails(id);
+    });
 
     showMenT_shirtProductContainer.append(cartTemplateClone);
   });

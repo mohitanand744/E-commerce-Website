@@ -1,3 +1,5 @@
+import { viewFullDetails } from "./viewFullDetails";
+
 export let womenT_shirt = (womentshirt) => {
   const womenTshirt = womentshirt.filter((womenTshirt) => {
     return womenTshirt.name === "women" && womenTshirt.category === "T-shirts";
@@ -14,10 +16,18 @@ export let womenT_shirt = (womentshirt) => {
     cloneProductCart.querySelector("img").src = image;
     cloneProductCart.querySelector(".price").innerText = `₹${price}`;
     cloneProductCart.querySelector(".org-price").innerText = `₹${price * 2}`;
+    cloneProductCart.querySelector("#cart").setAttribute("id", `cart${id}`);
+
     let shortDesc = description.split(" ");
     shortDesc = shortDesc.slice(0, 3).join(" ");
 
-    cloneProductCart.querySelector(".desc").innerText = `${shortDesc}...`
+    cloneProductCart.querySelector(".desc").innerText = `${shortDesc}...`;
+
+    let productCart = cloneProductCart.querySelector(`#cart${id}`);
+
+    productCart.addEventListener("click", () => {
+      viewFullDetails(id);
+    });
 
     productContainer.append(cloneProductCart);
   });
