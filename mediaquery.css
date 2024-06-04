@@ -38,8 +38,11 @@
     z-index: 9999;
   }
   main {
+    top: 15.4%;
     & .productContainer {
-      margin: 14.4rem auto;
+      & .moreDetails {
+        padding-bottom: 18rem;
+      }
     }
   }
 }

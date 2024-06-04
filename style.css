@@ -14,8 +14,8 @@ html {
 
 body {
   width: 100%;
-  height: 100vh;
   background: #f1f2f4;
+  position: relative;
 }
 
 /***** Repeat code *****/
@@ -715,7 +715,6 @@ nav {
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
   position: relative;
-  z-index: -1;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   & .btn {
@@ -767,7 +766,7 @@ nav {
     align-items: center;
     gap: 2rem;
     padding: 1.7rem;
-    padding-left: 4 + rem;
+    padding-left: 1rem;
     position: relative;
 
     & .product {
@@ -841,20 +840,46 @@ nav {
 /***** Full Details Section *****/
 
 main {
-  width: 100%;
+  width: 0%;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
   background: #fff;
+  position: fixed;
+  top: 12.2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 0.5s ease;
+  -webkit-transition: width 0.5s ease;
+  -moz-transition: width 0.5s ease;
+  -ms-transition: width 0.5s ease;
+  -o-transition: width 0.5s ease;
+  z-index: 999999;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    display: block;
+  }
+
+  & .back {
+    position: absolute;
+    top: 7%;
+    right: 4%;
+    font-size: 2rem;
+  }
 
   & .productContainer {
     width: 90%;
-    margin: 9rem auto;
     padding: 2rem;
+    margin-top: 50rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     & .zoomedImage {
       width: 35rem;
-      height: 35rem;
+      height: 30rem;
       border-radius: 4rem;
       -webkit-border-radius: 4rem;
       -moz-border-radius: 4rem;
@@ -871,15 +896,15 @@ main {
 
     & .images {
       width: 100%;
-      height: 20rem;
+      height: 15rem;
       display: flex;
       gap: 2rem;
       align-items: center;
       justify-content: center;
 
       & .box {
-        width: 11rem;
-        height: 11rem;
+        width: 8rem;
+        height: 8rem;
         border: 2px solid #000000;
         border-radius: 50%;
         -webkit-border-radius: 50%;
@@ -933,7 +958,7 @@ main {
           font-weight: 600;
           color: #494949;
 
-          & .org-price {
+          & .org-price1 {
             text-decoration: line-through;
           }
         }
@@ -956,7 +981,8 @@ main {
     & .moreDetails {
       align-self: flex-start;
       margin-top: 2rem;
-      width: 70%;
+      width: 100%;
+      padding-bottom: 10rem;
 
       & h2 {
         font-size: 2.2rem;
@@ -1019,3 +1045,33 @@ main {
   }
 }
 /***** End Animations *****/
+
+/***** Section scroolbar *****/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(144deg, #b500fd, #5b42f3 60%, #00ddeb);
+  border-radius: 15rem;
+  -webkit-border-radius: 15rem;
+  -moz-border-radius: 15rem;
+  -ms-border-radius: 15rem;
+  -o-border-radius: 15rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(14deg, #b500fd, #5b42f3 60%, #00ddeb);
+}
+
+/***** End Section scroolbar *****/
