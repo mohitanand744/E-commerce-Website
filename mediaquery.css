@@ -1,3 +1,11 @@
+@media screen and (width < 900px) {
+  main {
+    & .productContainer {
+      margin-top: 55rem;
+    }
+  }
+}
+
 @media screen and (width < 758px) {
   .slides-container {
     height: 50vh;
@@ -96,12 +104,6 @@
     & .productContainer {
       & .moreDetails {
         width: 100%;
-      }
-      & .images {
-        & .box {
-          width: 8rem;
-          height: 8rem;
-        }
       }
     }
   }

@@ -8,8 +8,11 @@ import { showMenT_shirt } from "./showMenT_shirt";
 import { clearSearchInputFunction } from "./clearSearchInput";
 import { showMenFootwear } from "./showMenFootwear";
 import { womenT_shirt } from "./womenT_shirt";
+import { scrollProducts } from "./scroolProducts";
 
 imageSlider();
+
+scrollProducts()
 
 filterProductDropdown();
 
