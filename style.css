@@ -352,6 +352,7 @@ nav {
 
     & .activeFilterbtn {
       display: block;
+z-index:2;
       font-size: 3rem;
       font-weight: bold;
       animation: moveRight 0.7s linear infinite alternate;
@@ -719,7 +720,7 @@ nav {
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
   position: relative;
-z-index:-1;
+z-index:1;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   & .btn {
