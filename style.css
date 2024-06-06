@@ -352,14 +352,14 @@ nav {
 
     & .activeFilterbtn {
       display: block;
-      z-index:2;
+      z-index:9999;
       font-size: 3rem;
       font-weight: bold;
       animation: moveRight 0.7s linear infinite alternate;
       -webkit-animation: moveRight 0.7s linear infinite alternate;
       position: fixed;
       color: #505050;
-      top: 58%;
+      top: 56%;
       z-index: 9999;
     }
   }
