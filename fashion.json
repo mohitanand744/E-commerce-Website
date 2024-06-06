@@ -4,16 +4,30 @@
         "name": "men",
         "category": "T-shirts",
         "price": 699,
-        "description": "Men's Regular Fit Polo.",
-        "image": "https://m.media-amazon.com/images/I/71eUwDk8z+L._AC_UL480_FMwebp_QL65_.jpg"
+        "description": "Symbol Premium Men's Super Soft Classic Polo T-Shirt: Regular Fit",
+        "image": "https://m.media-amazon.com/images/I/81a+-Kop5sL._AC_UL480_FMwebp_QL65_.jpg",
+        "image2": "https://m.media-amazon.com/images/I/81PrHGi-WyL._SX569_.jpg",
+        "image3": "https://m.media-amazon.com/images/I/81OHCy9BmDL._SX569_.jpg",
+        "image4": "https://m.media-amazon.com/images/I/91-B9FV+5vL._SX569_.jpg",
+        "about1": "Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR.",
+        "about2": "This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.",
+        "about3": "Sole: rubber ; Closure: Lace-Up Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR. This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.Krafter stylish, comfortable and durable Shoes for both Casual & Party Wear for girls/women. These Trendy Shoes go well with Dresses, Shorts, Skirts, Jeans, etc..",
+        "about4": "You have the option to choose the sizes fromUK 2/ Euro 35, UK 3/ Euro 36, UK 4/Euro 37, UK 5/Euro 38, UK 6/ Euro 39, UK 7/ Euro 40, UK 8/ Euro 41."
     },
     {
         "id": 2,
         "name": "men",
         "category": "T-shirts",
         "price": 899,
-        "description": "T-Shirt for Mens Double Stripes on Chest",
-        "image": "https://m.media-amazon.com/images/I/51byp5tQ86L._AC_UL480_FMwebp_QL65_.jpg"
+        "description": "AMERICAN CREW V-Neck Sports T-Shirt for Men.",
+        "image": "https://m.media-amazon.com/images/I/61gX7SpvipL._AC_UL480_FMwebp_QL65_.jpg",
+        "image2": "https://m.media-amazon.com/images/I/41dGVPC8aqL._SY741_.jpg",
+        "image3": "https://m.media-amazon.com/images/I/41GXocWXjFL._SY741_.jpg",
+        "image4": "https://m.media-amazon.com/images/I/41VW2xjYCnL._SY741_.jpg",
+        "about1": "Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR.",
+        "about2": "This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.",
+        "about3": "Sole: rubber ; Closure: Lace-Up Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR. This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.Krafter stylish, comfortable and durable Shoes for both Casual & Party Wear for girls/women. These Trendy Shoes go well with Dresses, Shorts, Skirts, Jeans, etc..",
+        "about4": "You have the option to choose the sizes fromUK 2/ Euro 35, UK 3/ Euro 36, UK 4/Euro 37, UK 5/Euro 38, UK 6/ Euro 39, UK 7/ Euro 40, UK 8/ Euro 41."
     },
     {
         "id": 3,
@@ -21,7 +35,14 @@
         "category": "T-shirts",
         "price": 889,
         "description": "Camouflage Men's Athleisure wear T-Shirt.",
-        "image": "https://m.media-amazon.com/images/I/51q863AAvoL._AC_UL480_FMwebp_QL65_.jpg"
+        "image": "https://m.media-amazon.com/images/I/41--SItx0KL._AC_UL480_FMwebp_QL65_.jpg",
+        "image2": "https://m.media-amazon.com/images/I/41bf6xeDBCL._SY741_.jpg",
+        "image3": "https://m.media-amazon.com/images/I/41jemWLBkmL._SY741_.jpg",
+        "image4": "https://m.media-amazon.com/images/I/51g1QiWOlLL._SY741_.jpg",
+        "about1": "Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR.",
+        "about2": "This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.",
+        "about3": "Sole: rubber ; Closure: Lace-Up Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR. This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.Krafter stylish, comfortable and durable Shoes for both Casual & Party Wear for girls/women. These Trendy Shoes go well with Dresses, Shorts, Skirts, Jeans, etc..",
+        "about4": "You have the option to choose the sizes fromUK 2/ Euro 35, UK 3/ Euro 36, UK 4/Euro 37, UK 5/Euro 38, UK 6/ Euro 39, UK 7/ Euro 40, UK 8/ Euro 41."
     },
     {
         "id": 4,
@@ -29,15 +50,29 @@
         "category": "T-shirts",
         "price": 1189,
         "description": "Regular Fit Striped Round Neck Half Sleeve T-Shirt.",
-        "image": "https://m.media-amazon.com/images/I/81jCqJRk0ZL._AC_UL480_FMwebp_QL65_.jpg"
+        "image": "https://m.media-amazon.com/images/I/51HDc3zf6dL._AC_UL480_FMwebp_QL65_.jpg",
+        "image2": "https://m.media-amazon.com/images/I/61cbmL3iG0L._SX679_.jpg",
+        "image3": "https://m.media-amazon.com/images/I/61h51dDmX6L._SX679_.jpg",
+        "image4": "https://m.media-amazon.com/images/I/61e+avfWYLL._SX679_.jpg",
+        "about1": "Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR.",
+        "about2": "This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.",
+        "about3": "Sole: rubber ; Closure: Lace-Up Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR. This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.Krafter stylish, comfortable and durable Shoes for both Casual & Party Wear for girls/women. These Trendy Shoes go well with Dresses, Shorts, Skirts, Jeans, etc..",
+        "about4": "You have the option to choose the sizes fromUK 2/ Euro 35, UK 3/ Euro 36, UK 4/Euro 37, UK 5/Euro 38, UK 6/ Euro 39, UK 7/ Euro 40, UK 8/ Euro 41."
     },
     {
         "id": 5,
         "name": "men",
         "category": "T-shirts",
         "price": 789,
-        "description": "Men's Short Sleeve with Round Neck, Oversized Longline Drop...",
-        "image": "https://m.media-amazon.com/images/I/71cQVQcdp6L._AC_UL480_QL65_.jpg"
+        "description": "LIQVID Round Neck Pure Cotton Kalki Printed Oversized Black T-Shirt for Men's",
+        "image": "https://m.media-amazon.com/images/I/51TT3zg9WDL._AC_SR160,200_.jpg",
+        "image2": "https://m.media-amazon.com/images/I/61b+F7WYhbL._SY741_.jpg",
+        "image3": "https://m.media-amazon.com/images/I/61z1p7sbA0L._SY741_.jpg",
+        "image4": "https://m.media-amazon.com/images/I/61AMiEDcWhL._SY741_.jpg",
+        "about1": "Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR.",
+        "about2": "This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.",
+        "about3": "Sole: rubber ; Closure: Lace-Up Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR. This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.Krafter stylish, comfortable and durable Shoes for both Casual & Party Wear for girls/women. These Trendy Shoes go well with Dresses, Shorts, Skirts, Jeans, etc..",
+        "about4": "You have the option to choose the sizes fromUK 2/ Euro 35, UK 3/ Euro 36, UK 4/Euro 37, UK 5/Euro 38, UK 6/ Euro 39, UK 7/ Euro 40, UK 8/ Euro 41."
     },
     {
         "id": 6,
@@ -85,10 +120,10 @@
         "category": "shoes",
         "price": 1539,
         "description": "KRAFTER Women's Buckle Faux Leather Boots Sole: rubber ; Closure: Lace-Up Material Type: PU/Synthetic.",
-        "image": "https://m.media-amazon.com/images/I/715k6NL7X7L._AC_UL480_FMwebp_QL65_.jpg",
-        "image2": "https://m.media-amazon.com/images/I/61uCXEQ+whL._SY675_.jpg",
-        "image3": "https://m.media-amazon.com/images/I/61H5A1MnytL._SY675_.jpg",
-        "image4": "https://m.media-amazon.com/images/I/61-NAn4BLXL._SY675_.jpg",
+        "image": "https://m.media-amazon.com/images/I/31krmO2CxqL.jpg",
+        "image2": "https://m.media-amazon.com/images/I/61zLYONLS-L._SY695_.jpg",
+        "image3": "https://m.media-amazon.com/images/I/713fiPb2H9L._SY695_.jpg",
+        "image4": "https://m.media-amazon.com/images/I/61bq1tsczeL._SY695_.jpg",
         "about1": "Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR.",
         "about2": "This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.",
         "about3": "Sole: rubber ; Closure: Lace-Up Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR. This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.Krafter stylish, comfortable and durable Shoes for both Casual & Party Wear for girls/women. These Trendy Shoes go well with Dresses, Shorts, Skirts, Jeans, etc..",
@@ -104,7 +139,10 @@
         "image2": "https://m.media-amazon.com/images/I/51dTp+fnrrL._SY695_.jpg",
         "image3": "https://m.media-amazon.com/images/I/51Ej+58r5mL._SY695_.jpg",
         "image4": "https://m.media-amazon.com/images/I/51+uAcEdATL._SY695_.jpg",
-        "about1": "Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR."
+        "about1": "Material Type: PU/Synthetic.",
+        "about2": "Lifestyle: Casual/Party Wear ",
+        "about3": "Closure Type: Lace-Ups",
+        "about4": " Sole: TPR."
     },
     {
         "id": 13,
@@ -115,7 +153,11 @@
         "image": "https://m.media-amazon.com/images/I/71M5mtgNeWL._SY675_.jpg",
         "image2": "https://m.media-amazon.com/images/I/71n5Zd5aDLL._SY675_.jpg",
         "image3": "https://m.media-amazon.com/images/I/71kvwRa8xfL._SY675_.jpg",
-        "image4": "https://m.media-amazon.com/images/I/71BtK4JL-5L._SY675_.jpg"
+        "image4": "https://m.media-amazon.com/images/I/71BtK4JL-5L._SY675_.jpg",
+        "about1": "Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR.",
+        "about2": "This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.",
+        "about3": "Sole: rubber ; Closure: Lace-Up Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR. This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.Krafter stylish, comfortable and durable Shoes for both Casual & Party Wear for girls/women. These Trendy Shoes go well with Dresses, Shorts, Skirts, Jeans, etc..",
+        "about4": "You have the option to choose the sizes fromUK 2/ Euro 35, UK 3/ Euro 36, UK 4/Euro 37, UK 5/Euro 38, UK 6/ Euro 39, UK 7/ Euro 40, UK 8/ Euro 41."
     },
     {
         "id": 14,
@@ -126,7 +168,11 @@
         "image": "https://m.media-amazon.com/images/I/71IUEjmjf3L._AC_UL480_FMwebp_QL65_.jpg",
         "image2": "https://m.media-amazon.com/images/I/618zIMbgR4L._SY675_.jpg",
         "image3": "https://m.media-amazon.com/images/I/61NOy670pJL._SY675_.jpg",
-        "image4": "https://m.media-amazon.com/images/I/71JjNhyT+dL._SY675_.jpg"
+        "image4": "https://m.media-amazon.com/images/I/71JjNhyT+dL._SY675_.jpg",
+        "about1": "Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR.",
+        "about2": "This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.",
+        "about3": "Sole: rubber ; Closure: Lace-Up Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR. This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.Krafter stylish, comfortable and durable Shoes for both Casual & Party Wear for girls/women. These Trendy Shoes go well with Dresses, Shorts, Skirts, Jeans, etc..",
+        "about4": "You have the option to choose the sizes fromUK 2/ Euro 35, UK 3/ Euro 36, UK 4/Euro 37, UK 5/Euro 38, UK 6/ Euro 39, UK 7/ Euro 40, UK 8/ Euro 41."
     },
     {
         "id": 15,
@@ -137,7 +183,11 @@
         "image": "https://m.media-amazon.com/images/I/711u5BRS8JL._AC_UL480_FMwebp_QL65_.jpg",
         "image2": "https://m.media-amazon.com/images/I/718K8-3pt6L._SY675_.jpg",
         "image3": "https://m.media-amazon.com/images/I/71VpnY9r+nL._SY675_.jpg",
-        "image4": "https://m.media-amazon.com/images/I/71+odILdEtL._SY675_.jpg"
+        "image4": "https://m.media-amazon.com/images/I/71+odILdEtL._SY675_.jpg",
+        "about1": "Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR.",
+        "about2": "This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.",
+        "about3": "Sole: rubber ; Closure: Lace-Up Material Type: PU/Synthetic, Lifestyle: Casual/Party Wear Closure Type: Lace-Ups, Sole: TPR. This Lace-Up Shoes makes a fit balanced shape with comfort. Its long lasting laces makes a firm grip. The sole is not slippery it is comfortable across all seasons.Krafter stylish, comfortable and durable Shoes for both Casual & Party Wear for girls/women. These Trendy Shoes go well with Dresses, Shorts, Skirts, Jeans, etc..",
+        "about4": "You have the option to choose the sizes fromUK 2/ Euro 35, UK 3/ Euro 36, UK 4/Euro 37, UK 5/Euro 38, UK 6/ Euro 39, UK 7/ Euro 40, UK 8/ Euro 41."
     },
     {
         "id": 16,
