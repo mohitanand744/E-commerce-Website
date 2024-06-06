@@ -25,7 +25,6 @@ export let showMenT_shirt = (MenT_shirt) => {
 
     let words = description.split(" ");
 
-    // Get the first four words
     description = words.slice(0, 2).join(" ");
 
     cartTemplateClone.querySelector(".productImage img").src = image;
