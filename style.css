@@ -136,12 +136,12 @@ nav {
       top: -11px;
       font-size: 1.8rem;
       right: -4px;
-      width: 26px;
-      height: 26px;
+      width: 24px;
+      height: 24px;
       display: flex;
       justify-content: center;
       align-items: center;
-      background: #ff0000;
+      background: red;
       border-radius: 50%;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -152,10 +152,6 @@ nav {
       -moz-transition: 0.4s;
       -ms-transition: 0.4s;
       -o-transition: 0.4s;
-    }
-
-    &:hover #cartValue {
-      scale: 1.2;
     }
   }
 
@@ -865,7 +861,7 @@ main {
   z-index: 999999;
 
   &::-webkit-scrollbar {
-    width: 10px;
+    width: 1rem;
     display: block;
   }
 
@@ -930,6 +926,7 @@ main {
           width: 100%;
           height: 100%;
           object-fit: cover;
+          object-position: top;
         }
 
         &:hover {
@@ -1063,30 +1060,6 @@ main {
 
 /***** Section scroolbar *****/
 
-/* width */
 ::-webkit-scrollbar {
-  width: 10px;
   display: none;
 }
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(144deg, #b500fd, #5b42f3 60%, #00ddeb);
-  border-radius: 15rem;
-  -webkit-border-radius: 15rem;
-  -moz-border-radius: 15rem;
-  -ms-border-radius: 15rem;
-  -o-border-radius: 15rem;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(14deg, #b500fd, #5b42f3 60%, #00ddeb);
-}
-
-/***** End Section scroolbar *****/
