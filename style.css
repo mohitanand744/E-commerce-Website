@@ -888,7 +888,7 @@ main {
       border-radius: 4rem;
       -webkit-border-radius: 4rem;
       -moz-border-radius: 4rem;
-      -ms-border-radius: 4rem;
+     -ms-border-radius: 4rem;
       -o-border-radius: 4rem;
       overflow: hidden;
       display: flex;
@@ -899,6 +899,11 @@ main {
         width: 100%;
         height: 100%;
         object-fit: contain;
+        border-radius: 2rem;
+      -webkit-border-radius: 2rem;
+      -moz-border-radius: 2rem;
+      -ms-border-radius: 2rem;
+      -o-border-radius: 2rem;
       }
     }
 
