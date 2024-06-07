@@ -37,6 +37,18 @@ export let showMenFootwear = (menFootwear) => {
       viewFullDetails(id);
     });
 
+    cartTemplate
+      .querySelector(".quentity_Container")
+      .addEventListener("click", (e) => {
+        e.stopPropagation();
+      });
+
+    cartTemplate
+      .querySelector(".addtocard")
+      .addEventListener("click", (e) => {
+        e.stopPropagation();
+      });
+
     productContainer.append(cartTemplate);
   });
 };
