@@ -869,8 +869,8 @@ main {
 
   & .back {
     position: absolute;
-    top: 7%;
-    right: 4%;
+    top: 4%;
+    right: 2%;
     font-size: 2rem;
   }
 
