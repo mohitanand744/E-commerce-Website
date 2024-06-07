@@ -43,4 +43,29 @@ export let viewFullDetails = (id) => {
   document.querySelector(".back").addEventListener("click", () => {
     document.querySelector(".main").style.height = "0vh";
   });
+
+  let boxes = document.querySelectorAll(".box");
+
+  boxes.forEach((box) => {
+    box.addEventListener("click", (e) => {
+      let className = e.target.className;
+
+      switch (className) {
+        case "image1":
+          document.querySelector(".zoomedImage img").src = image;
+          break;
+        case "image2":
+          document.querySelector(".zoomedImage img").src = image2;
+          break;
+        case "image3":
+          document.querySelector(".zoomedImage img").src = image3;
+          break;
+        case "image4":
+          document.querySelector(".zoomedImage img").src = image4;
+          break;
+        default:
+          document.querySelector(".zoomedImage img").src = image;
+      }
+    });
+  });
 };
