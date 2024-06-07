@@ -339,9 +339,10 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+position: relative;
 
   & .filter-btns {
-    position: fixed;
+    position: absolute;
     left: 3px;
     top: 22%;
     cursor: pointer;
@@ -354,8 +355,8 @@ nav {
       -webkit-animation: moveRight 0.7s linear infinite alternate;
       position: fixed;
       color: #505050;
-      top: 70%;
-      z-index: 9999;
+      top: 55%;
+      z-index: 9999; 
     }
   }
 
@@ -715,6 +716,7 @@ nav {
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
   position: relative;
+z-index:1;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   & .btn {
