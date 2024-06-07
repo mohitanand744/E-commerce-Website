@@ -883,14 +883,17 @@ main {
     align-items: center;
 
     & .zoomedImage {
-      width: 36rem;
-      height: 36rem;
+      width: 46rem;
+      height: 46rem;
       border-radius: 4rem;
       -webkit-border-radius: 4rem;
       -moz-border-radius: 4rem;
       -ms-border-radius: 4rem;
       -o-border-radius: 4rem;
       overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       & img {
         width: 100%;
