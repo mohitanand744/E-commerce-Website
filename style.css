@@ -877,7 +877,7 @@ main {
   & .productContainer {
     width: 90%;
     padding: 2rem;
-    margin-top: 43rem;
+    margin-top: 42rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -898,7 +898,7 @@ main {
       & img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
         border-radius: 2rem;
       -webkit-border-radius: 2rem;
       -moz-border-radius: 2rem;
