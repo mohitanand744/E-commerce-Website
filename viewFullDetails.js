@@ -3,11 +3,9 @@ import "./style.css";
 import "./mediaquery.css";
 
 export let viewFullDetails = (id) => {
-  let productCart = document.querySelector(`#cart${id}`);
+  //let productCart = document.querySelector(`#cart${id}`);
 
   document.querySelector(".main").style.height = "100vh";
-
-  console.log(productCart);
 
   let productMatch = products.find((product) => {
     return product.id === id;

@@ -7,7 +7,7 @@ export let showMenFootwear = (menFootwear) => {
   }
 
   const menFootwearProducts = menFootwear.filter((product) => {
-    return product.name === "men" && product.category === "shoes";
+    return product.name === "men" && product.category === "Men shoes";
   });
 
   const productContainer = document.querySelector(
@@ -43,11 +43,9 @@ export let showMenFootwear = (menFootwear) => {
         e.stopPropagation();
       });
 
-    cartTemplate
-      .querySelector(".addtocard")
-      .addEventListener("click", (e) => {
-        e.stopPropagation();
-      });
+    cartTemplate.querySelector(".addtocard").addEventListener("click", (e) => {
+      e.stopPropagation();
+    });
 
     productContainer.append(cartTemplate);
   });

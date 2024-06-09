@@ -12,7 +12,7 @@ export let showMenT_shirt = (MenT_shirt) => {
   }
 
   let MenT_shirts = MenT_shirt.filter((products) => {
-    return products.name === "men" && products.category === "Tshirts";
+    return products.name === "men" && products.category === "Men Tshirts";
   });
 
   MenT_shirts.forEach((products) => {

@@ -1037,7 +1037,6 @@ main {
       align-self: flex-start;
       margin-top: 2rem;
       width: 100%;
-      padding-bottom: 10rem;
 
       & h2 {
         font-size: 2.2rem;

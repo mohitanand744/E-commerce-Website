@@ -11,20 +11,14 @@ import { womenT_shirt } from "./womenT_shirt";
 import { scrollProducts } from "./scroolProducts";
 import { searchFunctionality } from "./searchFunctionality";
 
-imageSlider();
-
-scrollProducts();
-
-filterProductDropdown();
-
-showWomenFootwear(products);
-
-showMenT_shirt(products);
-
-clearSearchInputFunction();
-
-showMenFootwear(products);
-
-womenT_shirt(products);
-
-searchFunctionality(products);
+document.addEventListener('DOMContentLoaded', () => {
+    imageSlider();
+    scrollProducts();
+    filterProductDropdown();
+    showWomenFootwear(products);
+    showMenT_shirt(products);
+    clearSearchInputFunction();
+    showMenFootwear(products);
+    womenT_shirt(products);
+    searchFunctionality(products);
+  });

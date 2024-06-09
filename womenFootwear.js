@@ -12,7 +12,7 @@ export let showWomenFootwear = (womenFootwear) => {
   }
 
   let womenFootwearProducts = womenFootwear.filter((products) => {
-    return products.name === "women" && products.category === "shoes";
+    return products.name === "Women" && products.category === "Women shoes";
   });
 
   womenFootwearProducts.forEach((products) => {

@@ -2,7 +2,7 @@ import { viewFullDetails } from "./viewFullDetails";
 
 export let womenT_shirt = (womentshirt) => {
   const womenTshirt = womentshirt.filter((womenTshirt) => {
-    return womenTshirt.name === "women" && womenTshirt.category === "Tshirts";
+    return womenTshirt.name === "Women" && womenTshirt.category === "Women Tshirts";
   });
 
   let productContainer = document.querySelector(".womenTshirtproductContainer");
