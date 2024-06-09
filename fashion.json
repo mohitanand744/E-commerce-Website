@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "men",
-        "category": "T-shirts",
+        "category": "Tshirts",
         "price": 699,
         "description": "Symbol Premium Men's Super Soft Classic Polo T-Shirt: Regular Fit",
         "image": "https://m.media-amazon.com/images/I/81a+-Kop5sL._AC_UL480_FMwebp_QL65_.jpg",
@@ -17,7 +17,7 @@
     {
         "id": 2,
         "name": "men",
-        "category": "T-shirts",
+        "category": "Tshirts",
         "price": 899,
         "description": "AMERICAN CREW V-Neck Sports T-Shirt for Men.",
         "image": "https://m.media-amazon.com/images/I/61gX7SpvipL._AC_UL480_FMwebp_QL65_.jpg",
@@ -32,7 +32,7 @@
     {
         "id": 3,
         "name": "men",
-        "category": "T-shirts",
+        "category": "Tshirts",
         "price": 889,
         "description": "Camouflage Men's Athleisure wear T-Shirt.",
         "image": "https://m.media-amazon.com/images/I/41--SItx0KL._AC_UL480_FMwebp_QL65_.jpg",
@@ -47,7 +47,7 @@
     {
         "id": 4,
         "name": "men",
-        "category": "T-shirts",
+        "category": "Tshirts",
         "price": 1189,
         "description": "Regular Fit Striped Round Neck Half Sleeve T-Shirt.",
         "image": "https://m.media-amazon.com/images/I/51HDc3zf6dL._AC_UL480_FMwebp_QL65_.jpg",
@@ -62,7 +62,7 @@
     {
         "id": 5,
         "name": "men",
-        "category": "T-shirts",
+        "category": "Tshirts",
         "price": 1789,
         "description": "LEWEL Men's Stylish Round Neck Camouflage Printed Full Sleeve T-Shirt (Grey)",
         "image": "https://m.media-amazon.com/images/I/61RErSWA1dL._AC_UL480_FMwebp_QL65_.jpg",
@@ -77,7 +77,7 @@
     {
         "id": 6,
         "name": "women",
-        "category": "T-shirts",
+        "category": "Tshirts",
         "price": 1999,
         "description": "Women Printed Cotton Blend T-Shirt for Summer.",
         "image": "https://m.media-amazon.com/images/I/61T6P+UfTkL._SY741_.jpg",
@@ -92,7 +92,7 @@
     {
         "id": 7,
         "name": "women",
-        "category": "T-shirts",
+        "category": "Tshirts",
         "price": 999,
         "description": "Women's Cotton Stretch Regular Fit T-Shirt.",
         "image": "https://m.media-amazon.com/images/I/71QNZEUXwBL._AC_UL480_FMwebp_QL65_.jpg",
@@ -107,9 +107,9 @@
     {
         "id": 8,
         "name": "women",
-        "category": "T-shirts",
+        "category": "Tshirts",
         "price": 1129,
-        "description": "Women Cottonblend Half Sleeve Oversized Regular Fit T-Shirts.",
+        "description": "Women Cottonblend Half Sleeve Oversized Regular Fit TShirts.",
         "image": "https://m.media-amazon.com/images/I/71Pyx4EnrEL._SX679_.jpg",
         "image2": "https://m.media-amazon.com/images/I/61zkZAsOqeL._SX679_.jpg",
         "image3": "https://m.media-amazon.com/images/I/71qST+egCGL._SX679_.jpg",
@@ -122,7 +122,7 @@
     {
         "id": 9,
         "name": "women",
-        "category": "T-shirts",
+        "category": "Tshirts",
         "price": 1499,
         "description": "Women T-Shirt || Tshirt for Womens || Half Sleeve T Shirt for.",
         "image": "https://m.media-amazon.com/images/I/51RVeR3L5dL._AC_UL480_FMwebp_QL65_.jpg",
@@ -137,7 +137,7 @@
     {
         "id": 10,
         "name": "women",
-        "category": "T-shirts",
+        "category": "Tshirts",
         "price": 1999,
         "description": "Women T-Shirt || Tshirt for Womens || Half Sleeve T Shirt for.",
         "image": "https://m.media-amazon.com/images/I/51zJzl4xiBL._AC_UL480_FMwebp_QL65_.jpg",
@@ -302,7 +302,7 @@
     {
         "id": 21,
         "name": "women",
-        "category": "T-shirts",
+        "category": "Tshirts",
         "price": 1299,
         "description": "Regular Fit Half Sleeve Camo Print Women's Tshirt.",
         "image": "https://m.media-amazon.com/images/I/810LiJtjxqL._SY879_.jpg",
@@ -317,7 +317,7 @@
     {
         "id": 22,
         "name": "women",
-        "category": "T-shirts",
+        "category": "Tshirts",
         "price": 1899,
         "description": "Women's Ribbed Neck Circle Brand Print T-Shirt...",
         "image": "https://m.media-amazon.com/images/I/81Lk7HKWa-L._SX679_.jpg",

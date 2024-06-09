@@ -48,7 +48,7 @@
   main {
     & .productContainer {
       & .moreDetails {
-        padding-bottom: 18rem;
+        padding-bottom: 5rem;
       }
     }
   }

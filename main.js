@@ -9,10 +9,11 @@ import { clearSearchInputFunction } from "./clearSearchInput";
 import { showMenFootwear } from "./showMenFootwear";
 import { womenT_shirt } from "./womenT_shirt";
 import { scrollProducts } from "./scroolProducts";
+import { searchFunctionality } from "./searchFunctionality";
 
 imageSlider();
 
-scrollProducts()
+scrollProducts();
 
 filterProductDropdown();
 
@@ -26,3 +27,4 @@ showMenFootwear(products);
 
 womenT_shirt(products);
 
+searchFunctionality(products);

@@ -267,7 +267,7 @@ nav {
     & .dot {
       width: 1.3rem;
       height: 1.3rem;
-      border: 3px solid #363636;
+      border: 2px solid #36363686;
       border-radius: 50%;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -877,7 +877,7 @@ main {
   & .productContainer {
     width: 90%;
     padding: 2rem;
-    margin-top: 42rem;
+    margin-top: 45rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -888,7 +888,7 @@ main {
       border-radius: 4rem;
       -webkit-border-radius: 4rem;
       -moz-border-radius: 4rem;
-     -ms-border-radius: 4rem;
+      -ms-border-radius: 4rem;
       -o-border-radius: 4rem;
       overflow: hidden;
       display: flex;
@@ -900,10 +900,10 @@ main {
         height: 100%;
         object-fit: contain;
         border-radius: 2rem;
-      -webkit-border-radius: 2rem;
-      -moz-border-radius: 2rem;
-      -ms-border-radius: 2rem;
-      -o-border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
       }
     }
 
@@ -918,7 +918,7 @@ main {
       & .box {
         width: 10rem;
         height: 10rem;
-        filter: drop-shadow(0 0 0.50rem rgba(0, 0, 0, 0.138));
+        filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.138));
         -webkit-filter: drop-shadow(0 0 0.55rem rgba(0, 0, 0, 0.438));
         transition: 0.3s;
         -webkit-transition: 0.3s;
@@ -990,6 +990,30 @@ main {
           }
         }
       }
+
+      & .offer-container {
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: rgb(212, 0, 0);
+
+        & .offerBtn {
+          padding: 0.5rem 0.9rem;
+          border-radius: 0.5rem;
+          -webkit-border-radius: 0.5rem;
+          -moz-border-radius: 0.5rem;
+          -ms-border-radius: 0.5rem;
+          -o-border-radius: 0.5rem;
+          border: none;
+          outline: none;
+          background-color: red;
+          color: #fff;
+          font-weight: bold;
+          font-size: 1.5rem;
+        }
+      }
       & .delivery {
         font-size: 1.7rem;
         color: #505050;
@@ -999,8 +1023,12 @@ main {
         display: flex;
         gap: 2rem;
 
-        & .btn {
-          padding: 1rem 1.5rem;
+        & .btn:nth-child(1) {
+          height: 4.2rem;
+          width: 4.2rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
       }
     }
