@@ -442,7 +442,7 @@ nav {
 
 .searchData {
   width: 98%;
-  display: none;
+  display: block;
   height: fit-content;
   overflow: hidden;
   margin: 2rem auto;
@@ -477,7 +477,7 @@ nav {
     flex-wrap: wrap;
 
     & .product {
-      width: 25rem;
+      width: 22rem;
       height: 18rem;
       border-radius: 2rem;
       -webkit-border-radius: 2rem;
@@ -485,14 +485,14 @@ nav {
       -ms-border-radius: 2rem;
       -o-border-radius: 2rem;
       display: flex;
-      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       padding: 1rem;
       box-shadow: 0 0 10px 2px #27272742;
       overflow: hidden;
 
       & .productImage {
-        width: 100%;
-        height: 18rem;
+        height: 16rem;
         display: flex;
         overflow: hidden;
         justify-content: center;
@@ -500,10 +500,7 @@ nav {
         margin-bottom: 1rem;
 
         & img {
-          width: 100%;
           height: 100%;
-          object-fit: contain;
-          object-position: top;
           transition: all 0.2s ease;
           -webkit-transition: all 0.2s ease;
           -moz-transition: all 0.2s ease;
@@ -517,8 +514,9 @@ nav {
         text-align: center;
         font-size: 1.8rem;
 
-        & .desc{
-          width: 15rem;text-wrap: wrap;
+        & .desc {
+          width: 15rem;
+          text-wrap: wrap;
         }
         & .price {
           font-weight: bold;
