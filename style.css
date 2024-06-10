@@ -442,7 +442,7 @@ nav {
 
 .searchData {
   width: 98%;
-  display: block;
+  display: none;
   height: fit-content;
   overflow: hidden;
   margin: 2rem auto;
