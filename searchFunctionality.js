@@ -12,8 +12,9 @@
       console.log("Filtered Products:", filterProd);
     });
   });
-};
- */
+}; */
+
+import { displaySearchProd } from "./displaySearchProd";
 
 /* export let searchFunctionality = (items) => {
   let userInputs = document.querySelectorAll(".userInput");
@@ -31,16 +32,14 @@
       console.log("Filtered Products:", filterProd);
     });
   });
-};
- */
-
+}; */
 
 export let searchFunctionality = (items) => {
   let userInputs = document.querySelectorAll(".userInput");
 
   userInputs.forEach((input) => {
     input.addEventListener("keyup", () => {
-      let inputValue = input.value.toUpperCase();
+      let inputValue = input.value.toUpperCase().trim();
 
       let regex = new RegExp(`\\b${inputValue}\\b`, "i");
 
@@ -54,9 +53,8 @@ export let searchFunctionality = (items) => {
         }
       });
 
-      console.log("Filtered Products:", filterProd);
+      displaySearchProd(filterProd, inputValue);
     });
+
   });
 };
-
-

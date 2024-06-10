@@ -1,3 +1,5 @@
+import { displaySearchProd } from "./displaySearchProd";
+
 export let clearSearchInputFunction = () => {
   const userInputs = document.querySelectorAll(".userInput");
 

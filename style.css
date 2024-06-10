@@ -439,8 +439,100 @@ nav {
 .main-product-container {
   margin: 0 1.5rem;
 }
+
+.searchData {
+  width: 98%;
+  display: none;
+  height: fit-content;
+  overflow: hidden;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: width 1s;
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -ms-transition: width 1s;
+  -o-transition: width 1s;
+
+  & .title {
+    color: #636363;
+    font-size: 1.5rem;
+    padding: 2rem 4rem;
+  }
+
+  & .searchProductContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    padding: 1rem 1rem 3rem 1rem;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    & .product {
+      width: 25rem;
+      height: 18rem;
+      border-radius: 2rem;
+      -webkit-border-radius: 2rem;
+      -moz-border-radius: 2rem;
+      -ms-border-radius: 2rem;
+      -o-border-radius: 2rem;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      box-shadow: 0 0 10px 2px #27272742;
+      overflow: hidden;
+
+      & .productImage {
+        width: 100%;
+        height: 18rem;
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        & img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          object-position: top;
+          transition: all 0.2s ease;
+          -webkit-transition: all 0.2s ease;
+          -moz-transition: all 0.2s ease;
+          -ms-transition: all 0.2s ease;
+          -o-transition: all 0.2s ease;
+        }
+      }
+
+      & .Description {
+        color: #494949;
+        text-align: center;
+        font-size: 1.8rem;
+
+        & .desc{
+          width: 15rem;text-wrap: wrap;
+        }
+        & .price {
+          font-weight: bold;
+        }
+      }
+      &:hover img {
+        scale: 1.04;
+      }
+    }
+  }
+}
+
 .Container {
-  flex: 1;
+  width: 98%;
   margin: 2rem auto;
   padding: 2rem 4rem;
   background: #fff;
@@ -704,7 +796,7 @@ nav {
   }
 }
 
-.ScroolContainer {
+.ScrollContainer {
   width: 100%;
   max-width: 96%;
   margin: 2rem auto;
@@ -1095,7 +1187,7 @@ main {
 }
 /***** End Animations *****/
 
-/***** Section scroolbar *****/
+/***** Section scrollbar *****/
 
 ::-webkit-scrollbar {
   display: none;

@@ -1,6 +1,6 @@
 export let scrollProducts = () => {
   let scrollContainer = document.querySelector(".womenTshirtproductContainer");
-  let btnContainer = document.querySelector(".ScroolContainer");
+  let btnContainer = document.querySelector(".ScrollContainer");
 
   btnContainer.addEventListener("click", (e) => {
     if (e.target.classList.contains("next")) {
