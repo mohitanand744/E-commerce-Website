@@ -38,8 +38,10 @@ export let viewFullDetails = (id) => {
   document.querySelector(".about3").innerText = about3;
   document.querySelector(".about4").innerText = about4;
 
-  document.querySelector(".back").addEventListener("click", () => {
-    document.querySelector(".main").style.height = "0vh";
+  document.querySelectorAll(".back").forEach((back) => {
+    back.addEventListener("click", () => {
+      document.querySelector(".main").style.height = "0vh";
+    });
   });
 
   let boxes = document.querySelectorAll(".box");

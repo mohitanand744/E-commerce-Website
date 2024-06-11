@@ -9,6 +9,12 @@ export const displaySearchProd = (prod, inputValue) => {
   document.querySelector(".searchData").style.height = "100vh";
   document.querySelector(".searchData").style.paddingBottom = "10rem";
 
+  
+  document.querySelector(".back").addEventListener("click", () => {
+    document.querySelector(".searchData").style.height = "0vh";
+    document.querySelector(".searchData").style.paddingBottom = "0rem";
+  });
+
   prod.forEach((prod) => {
     let { description, image, price, id, category } = prod;
 
@@ -29,11 +35,6 @@ export const displaySearchProd = (prod, inputValue) => {
      <h2>Searching For : ${inputValue}</h2>
     `;
     }
-
-    document.querySelector(".back").addEventListener("click", () => {
-      document.querySelector(".searchData").style.height = "0vh";
-      document.querySelector(".searchData").style.paddingBottom = "0rem";
-    });
 
     templCart = templCart.querySelector(`#cart${id}`);
 
