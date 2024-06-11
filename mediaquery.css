@@ -1,4 +1,7 @@
 @media screen and (width < 900px) {
+  html {
+    font-size: 60.5%;
+  }
   main {
     & .productContainer {
       margin-top: 55rem;
@@ -7,6 +10,9 @@
 }
 
 @media screen and (width < 758px) {
+  html {
+    font-size: 57.5%;
+  }
   .slides-container {
     height: 50vh;
   }
@@ -22,7 +28,7 @@
 
 @media screen and (width < 648px) {
   html {
-    font-size: 56.5%;
+    font-size: 55.5%;
   }
   nav {
     box-shadow: none;
@@ -45,7 +51,7 @@
     height: 48vh;
     z-index: 9999;
   }
-  .searchData{
+  .searchData {
     top: 17%;
   }
   main {
@@ -65,7 +71,7 @@
     height: 37vh;
     top: 123px;
   }
-  .searchData{
+  .searchData {
     top: 15%;
   }
   nav {
