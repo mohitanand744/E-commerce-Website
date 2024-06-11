@@ -7,7 +7,7 @@ export const displaySearchProd = (prod, inputValue) => {
 
   prodContainer.innerHTML = "";
   document.querySelector(".searchData").style.height = "100vh";
-  document.querySelector(".searchData").style.paddingBottom = "10rem";
+  document.querySelector(".searchData").style.paddingBottom = "20rem";
 
   
   document.querySelector(".back").addEventListener("click", () => {
