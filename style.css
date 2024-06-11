@@ -441,8 +441,11 @@ nav {
 }
 
 .searchData {
+<<<<<<< HEAD
   width: 100%;
   height: 0vh;
+=======
+>>>>>>> d55bd7642e3bb673d930b8fb844e1fdbec9a6bd1
   overflow: hidden;
   overflow-y: scroll;
   background: #fff;
