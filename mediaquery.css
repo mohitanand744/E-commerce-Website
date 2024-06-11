@@ -65,6 +65,9 @@
     height: 37vh;
     top: 123px;
   }
+  .searchData{
+    top: 15%;
+  }
   nav {
     & .logo-container {
       & h2 {
