@@ -6,7 +6,8 @@ export const displaySearchProd = (prod, inputValue) => {
   let templateCart = document.getElementById("searchProdCart");
 
   prodContainer.innerHTML = "";
-  document.querySelector(".searchData").style.display = "block";
+  document.querySelector(".searchData").style.height = "100vh";
+  document.querySelector(".searchData").style.paddingBottom = "10rem";
 
   prod.forEach((prod) => {
     let { description, image, price, id, category } = prod;
@@ -15,9 +16,24 @@ export const displaySearchProd = (prod, inputValue) => {
 
     templCart.querySelector("img").src = image;
     templCart.querySelector("#cart").setAttribute("id", `cart${id}`);
-    document.querySelector(".searchData .title").innerHTML = `
+    templCart.querySelector(".desc").textContent = description;
+    templCart.querySelector(".price").textContent = `₹${price}`;
+    templCart.querySelector(".org-price").textContent = `₹${price * 2}`;
+
+    if (!inputValue) {
+      document.querySelector(".searchData .title").innerHTML = `
+      <h2>Searching For : Products</h2>
+     `;
+    } else {
+      document.querySelector(".searchData .title").innerHTML = `
      <h2>Searching For : ${inputValue}</h2>
     `;
+    }
+
+    document.querySelector(".back").addEventListener("click", () => {
+      document.querySelector(".searchData").style.height = "0vh";
+      document.querySelector(".searchData").style.paddingBottom = "0rem";
+    });
 
     templCart = templCart.querySelector(`#cart${id}`);
 

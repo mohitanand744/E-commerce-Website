@@ -45,6 +45,9 @@
     height: 48vh;
     z-index: 9999;
   }
+  .searchData{
+    top: 17%;
+  }
   main {
     & .productContainer {
       & .moreDetails {
