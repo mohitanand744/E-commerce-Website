@@ -80,7 +80,7 @@ export let searchFunctionality = (items) => {
     input.addEventListener("keyup", () => {
       let inputValue = input.value.toLowerCase().trim();
 
-      let regex = new RegExp(`\\b${inputValue}|^${inputValue}, 'i'`);
+      let regex = new RegExp(`\\b${inputValue}, 'i'`);
 
       let filterProd = items.filter((prods) => {
         return regex.test(prods.category.toLowerCase());
