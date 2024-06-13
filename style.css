@@ -447,7 +447,7 @@ nav {
   overflow-y: scroll;
   background: #fff;
   position: fixed;
-  top: 12%;
+  top: 11%;
   transition: height 0.5s ease;
   -webkit-transition: height 0.5s ease;
   -moz-transition: height 0.5s ease;

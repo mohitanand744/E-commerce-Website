@@ -130,3 +130,9 @@
     top: 119px;
   }
 }
+
+@media screen and (width < 330px) {
+  html {
+    font-size: 42.5%;
+  }
+}
