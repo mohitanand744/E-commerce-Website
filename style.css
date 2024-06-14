@@ -127,6 +127,11 @@ nav {
     color: #fff;
     position: relative;
 
+    & a {
+      text-decoration: none;
+      color: #fff;
+    }
+
     & img {
       width: 3.5rem;
     }
@@ -136,8 +141,8 @@ nav {
       top: -11px;
       font-size: 1.8rem;
       right: -4px;
-      width: 24px;
-      height: 24px;
+      width: 25px;
+      height: 25px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -1219,20 +1224,199 @@ main {
 
 /***** End Full Details Section *****/
 
+/***** Page Cart product *****/
+
+.cartmainContainer {
+  width: 97%;
+  margin: 15rem auto;
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+
+  & .product {
+    width: 60%;
+    background: #ffffff;
+    border-bottom: 3px solid #afafaf;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    padding: 2rem;
+    position: relative;
+
+    & .left-Container {
+      display: flex;
+      gap: 2rem;
+
+      & .productImage {
+        width: 15rem;
+
+        & img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          object-position: center;
+        }
+      }
+
+      & .description {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        font-size: 2.3rem;
+        font-weight: 500;
+
+        & .rating_Container {
+          font-size: 1.9rem;
+
+          & span {
+            margin-left: 1rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: rgb(107, 107, 107);
+          }
+        }
+
+        & .price-Container {
+          display: flex;
+          gap: 1.3rem;
+          font-size: 2.1rem;
+          color: #313131;
+
+          & .org-price {
+            text-decoration: line-through;
+          }
+        }
+
+        & .quentity_Container {
+          display: flex;
+          align-items: center;
+          gap: 1.5rem;
+          margin-top: 1rem;
+
+          & p {
+            font-size: 2rem;
+            font-weight: bold;
+            border-bottom: 2px solid #3b3b3b;
+            width: 2rem;
+            text-align: center;
+          }
+
+          & .btn {
+            height: 3rem;
+            width: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+
+    & .deleteBtn {
+      position: absolute;
+      right: 3rem;
+      bottom: 2rem;
+      font-size: 2rem;
+
+      & i {
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+      }
+
+      &:active i {
+        scale: 0.8;
+      }
+    }
+  }
+
+  & .CalculatePrice {
+    background: #fff;
+    padding: 2rem;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    height: fit-content;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+
+    & .top-heading {
+      font-size: 1.7rem;
+      color: #686868;
+      border-bottom: 3px solid #ddd;
+      padding: 0.5rem;
+      border-radius: 2rem;
+      -webkit-border-radius: 2rem;
+      -moz-border-radius: 2rem;
+      -ms-border-radius: 2rem;
+      -o-border-radius: 2rem;
+
+      & h2 {
+        margin-left: 1rem;
+      }
+    }
+
+    & .full-details {
+      padding: 0.5rem;
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      & .row {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        font-size: 1.8rem;
+      }
+
+      & .row:nth-child(3) {
+        margin-top: 1.8rem;
+        padding-top: 2.2rem;
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #444444;
+        border-top: 3px solid #dadada;
+        border-radius: 1.5rem;
+        -webkit-border-radius: 1.5rem;
+        -moz-border-radius: 1.5rem;
+        -ms-border-radius: 1.5rem;
+        -o-border-radius: 1.5rem;
+      }
+    }
+  }
+}
+
+/***** End Page Cart product *****/
+
 /***** Footer Section *****/
 
 footer {
   width: 100%;
+  display: none;
   text-align: center;
   background: #ffffff;
-  color: #444444;
-  padding: 2rem;
+  color: #454545;
+  padding: 1rem;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.138);
   border-top-left-radius: 4rem;
   border-top-right-radius: 4rem;
 
   & p {
     font-size: 1.8rem;
+  }
+
+  & p:nth-child(2) {
+    margin-top: 1rem;
   }
 
   & .logo-container {

@@ -22,3 +22,5 @@ document.addEventListener("DOMContentLoaded", () => {
   womenT_shirt(products);
   searchFunctionality(products);
 });
+
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shopping Site</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo-container">
+        <a href="/">
+          <h2>RMrt</h2>
+        </a>
+      </div>
+      <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+        <input
+          type="text"
+          class="userInput"
+          placeholder="ex: men tshirts..."
+          spellcheck="false"
+        />
+        <p class="clearSearchInput">&#x274C;</p>
+      </div>
+      <div class="right">
+        <div class="addtocard-Container">
+          <a href="cartPage.html">
+            <img src="./public/addtocart.svg" alt="" />
+            <span id="cartValue">0</span>
+          </a>
+        </div>
+        <div class="signUpContainer">
+          <button class="btn">Login</button>
+          <button class="btn">Sign Up</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ! ========== Start Mobile View ========== -->
+
+    <div class="responsive-search-container">
+      <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+      <input
+        type="text"
+        class="userInput"
+        placeholder="ex: men tshirts..."
+        spellcheck="false"
+      />
+      <p class="clearSearchInput">&#x274C;</p>
+    </div>
+
+    <!-- ! ========== End Mobile View ========== -->
+
+    <div class="cartmainContainer">
+      <div class="product">
+        <div class="left-Container">
+          <div class="productImage">
+            <img
+              src="https://m.media-amazon.com/images/I/71Dq2DZhDTL._AC_UL480_FMwebp_QL65_.jpg"
+              alt="image"
+            />
+          </div>
+
+          <div class="description">
+            <p class="desc">
+              Kraasa Men Training, Walking, Gym, Sports Running Shoes
+            </p>
+            <div class="rating_Container">
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i
+                class="fa-regular fa-star-half-stroke"
+                style="color: #ffd43b"
+              ></i
+              ><i class="fa-regular fa-star" style="color: #ffd43b"></i>
+              <span>2578 reviews...</span>
+            </div>
+            <div class="price-Container">
+              <p class="price">₹729</p>
+              <p class="mrp">MRP <span class="org-price"> ₹1129</span></p>
+            </div>
+
+            <div class="quentity_Container">
+              <button class="btn plus">
+                <i class="fa-solid fa-chevron-up" style="color: #ffffff"></i>
+              </button>
+              <p class="quentity">1</p>
+              <button class="btn minus">
+                <i class="fa-solid fa-chevron-down" style="color: #ffffff"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="deleteBtn">
+          <i class="fa-solid fa-trash" style="color: #000000"></i>
+        </div>
+      </div>
+
+      <div class="CalculatePrice">
+        <div class="top-heading">
+          <h2>Price Details</h2>
+        </div>
+        <div class="full-details">
+          <div class="row">
+            <p>Price <span class="totalProducts">5 items</span></p>
+            <p class="total-amount">...</p>
+          </div>
+          <div class="row">
+            <p>Secured Packaging Fee</p>
+            <p class="Fee">₹98</p>
+          </div>
+          <div class="row">
+            <p>Total Amount</p>
+            <p class="totalAmount">...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--! ========= Start Footer ========== -->
+    <footer>
+      <div class="logo-container">
+        <a href="/">
+          <h2>RMrt</h2>
+        </a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 Your <b>RMrt</b>. All Rights Reserved.</p>
+        <p>
+          💕 <b>2024</b>, This Creation was Crafted With Care 💯 And Affection
+          ✌️.
+        </p>
+      </div>
+    </footer>
+
+    <!--! ========== End Footer ========== -->
+
+    <!-- ! ========== Link javascript ========== -->
+
+    <script type="module" src="./showCartProducts.js"></script>
+    <script
+      src="https://kit.fontawesome.com/50f49a27bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
