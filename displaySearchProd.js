@@ -9,14 +9,13 @@ export const displaySearchProd = (prod, inputValue) => {
   document.querySelector(".searchData").style.height = "100vh";
   document.querySelector(".searchData").style.paddingBottom = "25rem";
 
-  
   document.querySelector(".back").addEventListener("click", () => {
     document.querySelector(".searchData").style.height = "0vh";
     document.querySelector(".searchData").style.paddingBottom = "0rem";
   });
 
   prod.forEach((prod) => {
-    let { description, image, price, id, category } = prod;
+    let { description, image, price, id } = prod;
 
     let templCart = document.importNode(templateCart.content, true);
 
@@ -43,5 +42,15 @@ export const displaySearchProd = (prod, inputValue) => {
     });
 
     prodContainer.append(templCart);
+
+    templCart
+      .querySelector(".quentity_Container")
+      .addEventListener("click", (e) => {
+        e.stopPropagation();
+      });
+
+    templCart.querySelector(".addtocard").addEventListener("click", (e) => {
+      e.stopPropagation();
+    });
   });
 };

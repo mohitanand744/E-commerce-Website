@@ -7,6 +7,10 @@
       margin-top: 55rem;
     }
   }
+
+  .footer-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media screen and (width < 758px) {
@@ -60,6 +64,11 @@
         padding-bottom: 5rem;
       }
     }
+  }
+
+  .footer-container {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -118,6 +127,9 @@
         width: 100%;
       }
     }
+  }
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
