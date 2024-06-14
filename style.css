@@ -1221,101 +1221,31 @@ main {
 
 /***** Footer Section *****/
 
-.footer-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-  height: fit-content;
-  background-color: #ffffff;
-  color: #444444;
-  padding: 5rem 2rem;
-  font-size: 1.5rem;
-  border-radius: 4rem 4rem 0 0;
-  -webkit-border-radius: 4rem 4rem 0 0;
-  -moz-border-radius: 4rem 4rem 0 0;
-  -ms-border-radius: 4rem 4rem 0 0;
-  -o-border-radius: 4rem 4rem 0 0;
-}
-
-.footer-section {
+footer {
   width: 100%;
-}
+  text-align: center;
+  background: #ffffff;
+  color: #444444;
+  padding: 2rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.138);
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
 
-.footer-section h2 {
-  margin-bottom: 1rem;
-  font-size: 2.5rem;
-}
+  & p {
+    font-size: 1.8rem;
+  }
 
-.footer-section p,
-.footer-section ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  font-size: 1.8rem;
-}
-
-.footer-section ul li {
-  margin-top: 0.6rem;
-}
-
-.footer-section ul li a {
-  color: #242323;
-  text-decoration: none;
-}
-
-.footer-section ul li a:hover {
-  text-decoration: underline;
-}
-
-.footer-section form {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-section input {
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
-  outline: none;
-  border: none;
-  padding: 1rem 1.5rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-
-  &::placeholder {
-    font-size: 1.5rem;
-    font-weight: bold;
+  & .logo-container {
+    & h2 {
+      font-size: 4rem;
+      background: linear-gradient(144deg, #b500fd, #5b42f3 60%, #00ddeb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: "Rubik Glitch Pop", system-ui;
+    }
   }
 }
 
-.footer-section button {
-  padding: 0.625rem;
-  border: none;
-  font-size: 1.8rem;
-  font-weight: bold;
-  border-radius: 0.3125rem;
-  background: linear-gradient(144deg, #b500fd, #5b42f3 60%, #00ddeb);
-  color: #fff;
-  cursor: pointer;
-  border-radius: 4rem;
-  -webkit-border-radius: 4rem;
-  -moz-border-radius: 4rem;
-  -ms-border-radius: 4rem;
-  -o-border-radius: 4rem;
-  margin-top: 1rem;
-}
-
-.footer-bottom {
-  background-color: #222;
-  color: #ccc;
-  text-align: center;
-  padding: 1.5rem;
-}
-
-.footer-bottom p {
-  font-size: 1.5rem;
-}
 /***** End Footer Section *****/
 
 /***** Animations *****/
