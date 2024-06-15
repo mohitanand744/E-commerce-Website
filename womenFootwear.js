@@ -39,6 +39,11 @@ export let showWomenFootwear = (womenFootwear) => {
       viewFullDetails(id);
     });
 
+    productCartTemplate
+      .querySelector(".addtocart")
+      .addEventListener("click", (e) => {
+        e.stopPropagation();
+      });
     womenFootwearproductContainer.append(productCartTemplate);
   });
 };

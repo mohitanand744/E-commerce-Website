@@ -32,11 +32,14 @@ export let showMenT_shirt = (MenT_shirt) => {
     cartTemplateClone.querySelector(".Desc").innerText = `${description}...`;
     cartTemplateClone.querySelector("#cart").setAttribute("id", `cart${id}`);
 
-
     let productCart = cartTemplateClone.querySelector(`#cart${id}`);
 
     productCart.addEventListener("click", () => {
       viewFullDetails(id);
+    });
+
+    productCart.querySelector(".addtocart").addEventListener("click", (e) => {
+      e.stopPropagation();
     });
 
     showMenT_shirtProductContainer.append(cartTemplateClone);
