@@ -6,22 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Shopping Site</title>
   </head>
-  <body>
+  <body class="cartpageBody">
     <nav>
       <div class="logo-container">
         <a href="/">
           <h2>RMrt</h2>
         </a>
-      </div>
-      <div class="search-container">
-        <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
-        <input
-          type="text"
-          class="userInput"
-          placeholder="ex: men tshirts..."
-          spellcheck="false"
-        />
-        <p class="clearSearchInput">&#x274C;</p>
       </div>
       <div class="right">
         <div class="addtocard-Container">
@@ -39,20 +29,41 @@
 
     <!-- ! ========== Start Mobile View ========== -->
 
-    <div class="responsive-search-container">
-      <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
-      <input
-        type="text"
-        class="userInput"
-        placeholder="ex: men tshirts..."
-        spellcheck="false"
-      />
-      <p class="clearSearchInput">&#x274C;</p>
-    </div>
-
     <!-- ! ========== End Mobile View ========== -->
 
     <div class="cartmainContainer">
+      <div class="product_Container">
+        <div class="cartEmpty">
+          <img
+            src="https://cdni.iconscout.com/illustration/premium/thumb/empty-cart-5521508-4610092.png"
+            alt="empty"
+          />
+        </div>
+      </div>
+      <div class="CalculatePrice">
+        <div class="top-heading">
+          <h2>Price Details</h2>
+        </div>
+        <div class="full-details">
+          <div class="row">
+            <p>Price <span class="totalProducts">5 items</span></p>
+            <p class="total-amount">...</p>
+          </div>
+          <div class="row">
+            <p>Secured Packaging Fee</p>
+            <p class="Fee">₹98</p>
+          </div>
+          <div class="row">
+            <p>Total Amount</p>
+            <p class="totalAmount">...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--! ========== Start Template ========== -->
+
+    <template id="cartProduct">
       <div class="product">
         <div class="left-Container">
           <div class="productImage">
@@ -98,30 +109,12 @@
           <i class="fa-solid fa-trash" style="color: #000000"></i>
         </div>
       </div>
+    </template>
 
-      <div class="CalculatePrice">
-        <div class="top-heading">
-          <h2>Price Details</h2>
-        </div>
-        <div class="full-details">
-          <div class="row">
-            <p>Price <span class="totalProducts">5 items</span></p>
-            <p class="total-amount">...</p>
-          </div>
-          <div class="row">
-            <p>Secured Packaging Fee</p>
-            <p class="Fee">₹98</p>
-          </div>
-          <div class="row">
-            <p>Total Amount</p>
-            <p class="totalAmount">...</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!--!  ========== End Template ========== -->
 
     <!--! ========= Start Footer ========== -->
-    <footer>
+    <footer class="cartPageFooter">
       <div class="logo-container">
         <a href="/">
           <h2>RMrt</h2>
@@ -130,10 +123,6 @@
 
       <div class="footer-bottom">
         <p>&copy; 2024 Your <b>RMrt</b>. All Rights Reserved.</p>
-        <p>
-          💕 <b>2024</b>, This Creation was Crafted With Care 💯 And Affection
-          ✌️.
-        </p>
       </div>
     </footer>
 

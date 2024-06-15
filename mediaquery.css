@@ -169,6 +169,12 @@
   }
 
   .cartmainContainer {
+    & .product_Container {
+      & .cartEmpty {
+        width: 61rem;
+        height: 41rem;
+      }
+    }
     & .CalculatePrice {
       width: 95%;
     }
@@ -188,5 +194,13 @@
 @media screen and (width < 330px) {
   html {
     font-size: 42.5%;
+  }
+  .cartmainContainer {
+    & .product_Container {
+      & .cartEmpty {
+        width: 61rem;
+        height: 39rem;
+      }
+    }
   }
 }
