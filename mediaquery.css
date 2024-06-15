@@ -203,4 +203,8 @@
       }
     }
   }
+
+  .responsive-search-container {
+    top: 68px;
+  }
 }
