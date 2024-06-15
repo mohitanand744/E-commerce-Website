@@ -668,7 +668,8 @@ nav {
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-        border: 3.3px solid #5a5a5acc;
+        background: linear-gradient(144deg, #b500fd, #5b42f3 60%, #00ddeb);
+        color: #fff;
         transition: all 0.2s ease;
         -webkit-transition: all 0.2s ease;
         -moz-transition: all 0.2s ease;
@@ -703,7 +704,7 @@ nav {
         text-align: left;
         font-size: 1.8rem;
         padding-left: 0.3rem;
-        
+
         & .price {
           font-weight: bold;
         }
@@ -752,7 +753,8 @@ nav {
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-        border: 3.3px solid #5a5a5acc;
+        color: #fff;
+        background: linear-gradient(144deg, #b500fd, #5b42f3 60%, #00ddeb);
         transition: all 0.2s ease;
         -webkit-transition: all 0.2s ease;
         -moz-transition: all 0.2s ease;
