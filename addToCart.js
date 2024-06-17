@@ -4,11 +4,19 @@ export const addToCart = (id) => {
   let currCart = document.querySelector(`#cart${id}`);
 
   let localStorageData = getLocalStorageData();
-console.log(currCart);
+  console.log(currCart);
   let quantity = Number(currCart.querySelector(".quentity").textContent);
   let price = currCart.querySelector(".price").textContent;
-  price = Number(price.replace("₹", ""));
+  price = price.replace("₹", "");
+  price = Number(price.replace("From", ""));
+
   console.log(price);
+
+  let existingProduct = localStorageData.find((prod) => prod.id === id);
+
+  if (existingProduct) {
+    return false;
+  }
 
   let CartData = { quantity, price, id };
 

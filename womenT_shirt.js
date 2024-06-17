@@ -1,3 +1,4 @@
+import { addToCart } from "./addToCart";
 import { viewFullDetails } from "./viewFullDetails";
 
 export let womenT_shirt = (womentshirt) => {
@@ -30,6 +31,13 @@ export let womenT_shirt = (womentshirt) => {
     productCart.addEventListener("click", () => {
       viewFullDetails(id);
     });
+
+    cloneProductCart
+      .querySelector(".addtocard")
+      .addEventListener("click", (e) => {
+        e.stopPropagation();
+        addToCart(id);
+      });
 
     productContainer.append(cloneProductCart);
   });

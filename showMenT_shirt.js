@@ -1,3 +1,4 @@
+import { addToCart } from "./addToCart";
 import { viewFullDetails } from "./viewFullDetails";
 
 let showMenT_shirtProductContainer = document.querySelector(
@@ -16,7 +17,7 @@ export let showMenT_shirt = (MenT_shirt) => {
   });
 
   MenT_shirts.forEach((products) => {
-    let { image, description, price, id, category, name } = products;
+    let { image, description, price, id } = products;
 
     let cartTemplateClone = document.importNode(
       menTshirtproductCartTemplate.content,
@@ -40,6 +41,7 @@ export let showMenT_shirt = (MenT_shirt) => {
 
     productCart.querySelector(".addtocart").addEventListener("click", (e) => {
       e.stopPropagation();
+      addToCart(id);
     });
 
     showMenT_shirtProductContainer.append(cartTemplateClone);

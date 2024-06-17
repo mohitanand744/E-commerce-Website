@@ -3,7 +3,6 @@ import "./style.css";
 import "./mediaquery.css";
 
 export let viewFullDetails = (id) => {
-
   document.querySelector(".main").style.height = "100vh";
 
   let productMatch = products.find((product) => {

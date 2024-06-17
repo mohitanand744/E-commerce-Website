@@ -1,3 +1,4 @@
+import { addToCart } from "./addToCart";
 import { viewFullDetails } from "./viewFullDetails";
 
 let womenFootwearproductContainer = document.querySelector(
@@ -43,6 +44,14 @@ export let showWomenFootwear = (womenFootwear) => {
       .querySelector(".addtocart")
       .addEventListener("click", (e) => {
         e.stopPropagation();
+        addToCart(id);
+      });
+
+    productCartTemplate
+      .querySelector(".quentity_Container")
+      .addEventListener("click", (e) => {
+        e.stopPropagation();
+        quantityToggle(e, id);
       });
     womenFootwearproductContainer.append(productCartTemplate);
   });
