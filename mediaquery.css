@@ -80,11 +80,6 @@
     }
   }
 
-  .footer-container {
-    width: 100%;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .cartmainContainer {
     margin-top: 19rem;
     & .product {
@@ -171,8 +166,8 @@
   .cartmainContainer {
     & .product_Container {
       & .cartEmpty {
-        width: 61rem;
-        height: 41rem;
+        padding: 2rem;
+        width: 46rem;
       }
     }
     & .CalculatePrice {
@@ -198,8 +193,7 @@
   .cartmainContainer {
     & .product_Container {
       & .cartEmpty {
-        width: 61rem;
-        height: 55rem;
+        width: 41rem;
       }
     }
   }
