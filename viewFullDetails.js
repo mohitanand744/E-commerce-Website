@@ -3,7 +3,6 @@ import "./style.css";
 import "./mediaquery.css";
 
 export let viewFullDetails = (id) => {
-  //let productCart = document.querySelector(`#cart${id}`);
 
   document.querySelector(".main").style.height = "100vh";
 

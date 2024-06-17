@@ -31,12 +31,6 @@ export let womenT_shirt = (womentshirt) => {
       viewFullDetails(id);
     });
 
-    cloneProductCart
-      .querySelector(".addtocart")
-      .addEventListener("click", (e) => {
-        e.stopPropagation();
-      });
-
     productContainer.append(cloneProductCart);
   });
 };

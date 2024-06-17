@@ -1,3 +1,4 @@
+import { addToCart } from "./addToCart";
 import { viewFullDetails } from "./viewFullDetails";
 
 export let showMenFootwear = (menFootwear) => {
