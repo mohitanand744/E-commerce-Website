@@ -654,6 +654,12 @@ nav {
       overflow: hidden;
       position: relative;
 
+& .dqContainer{
+display: flex;
+flex-direction: colum;
+          justify-content: space-between;
+          align-items: center;
+}
       & .quentity_Container {
         display: flex;
         align-items: center;
