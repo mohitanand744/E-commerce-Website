@@ -656,7 +656,7 @@ nav {
 
 & .dqContainer{
 display: flex;
-flex-direction: colum;
+flex-direction: column;
           justify-content: space-between;
           align-items: center;
 }
