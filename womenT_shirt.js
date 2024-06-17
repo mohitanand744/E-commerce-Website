@@ -2,7 +2,9 @@ import { viewFullDetails } from "./viewFullDetails";
 
 export let womenT_shirt = (womentshirt) => {
   const womenTshirt = womentshirt.filter((womenTshirt) => {
-    return womenTshirt.name === "Women" && womenTshirt.category === "Women Tshirts";
+    return (
+      womenTshirt.name === "Women" && womenTshirt.category === "Women Tshirts"
+    );
   });
 
   let productContainer = document.querySelector(".womenTshirtproductContainer");
@@ -28,6 +30,12 @@ export let womenT_shirt = (womentshirt) => {
     productCart.addEventListener("click", () => {
       viewFullDetails(id);
     });
+
+    cloneProductCart
+      .querySelector(".addtocart")
+      .addEventListener("click", (e) => {
+        e.stopPropagation();
+      });
 
     productContainer.append(cloneProductCart);
   });

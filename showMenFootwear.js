@@ -45,6 +45,7 @@ export let showMenFootwear = (menFootwear) => {
 
     cartTemplate.querySelector(".addtocard").addEventListener("click", (e) => {
       e.stopPropagation();
+      addToCart(id);
     });
 
     productContainer.append(cartTemplate);
