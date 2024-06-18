@@ -9,7 +9,6 @@ export let updatedCartValue = () => {
     cartValue.innerText = localStorageData.length || 0;
   });
 
-  console.log(localStorageData.length);
 };
 
 

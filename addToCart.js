@@ -11,8 +11,6 @@ export const addToCart = (id) => {
   price = price.replace("₹", "");
   price = Number(price.replace("From", ""));
 
-  console.log(price);
-
   let existingProduct = localStorageData.find((prod) => prod.id === id);
 
   if (existingProduct && quantity > 1) {

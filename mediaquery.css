@@ -8,14 +8,14 @@
 
     & .CalculatePrice {
       width: 50%;
+      margin: 0 auto;
     }
   }
 
   main {
     & .productContainer {
-
-      & .productDetails{
-        & .btnsContainer{
+      & .productDetails {
+        & .btnsContainer {
           width: 30%;
         }
       }
@@ -43,9 +43,8 @@
 
   main {
     & .productContainer {
-
-      & .productDetails{
-        & .btnsContainer{
+      & .productDetails {
+        & .btnsContainer {
           width: 30%;
         }
       }
@@ -65,6 +64,13 @@
     & .filter-btns {
       & .activeFilterbtn {
         top: 60%;
+      }
+    }
+  }
+  .cartmainContainer {
+    & .product_Container {
+      & .product {
+        width: 54rem;
       }
     }
   }
@@ -115,25 +121,6 @@
       }
     }
   }
-
-  .cartmainContainer {
-    margin-top: 19rem;
-    & .product {
-      flex-direction: column;
-
-      & .left-Container {
-        flex-direction: column;
-        align-items: center;
-
-        & .productImage {
-          width: 21rem;
-        }
-      }
-    }
-    & .CalculatePrice {
-      width: 80%;
-    }
-  }
 }
 
 @media screen and (width < 548px) {
@@ -155,6 +142,30 @@
     }
   }
 
+  .cartmainContainer {
+    margin-top: 19rem;
+    & .product_Container {
+      & .product {
+        flex-direction: column;
+        height: 52rem;
+        width: 45rem;
+
+        & .left-Container {
+          flex-direction: column;
+          align-items: center;
+
+          & .productImage {
+            width: 24rem;
+            height: 30rem;
+          }
+        }
+      }
+    }
+    & .CalculatePrice {
+      width: 80%;
+    }
+  }
+
   .ProductsCategoryContainer_mainProductContainer {
     & .filter-btns {
       & .activeFilterbtn {
@@ -169,12 +180,10 @@
     font-size: 47.5%;
   }
 
- 
   main {
     & .productContainer {
-
-      & .productDetails{
-        & .btnsContainer{
+      & .productDetails {
+        & .btnsContainer {
           width: 100%;
         }
       }
@@ -201,18 +210,41 @@
       width: 95%;
     }
   }
-
-
 }
 
-@media screen and (width < 368px) {
+@media screen and (width < 398px) {
   html {
-    font-size: 45.5%;
+    font-size: 46.5%;
   }
   .slides-container {
     height: 37vh;
     top: 119px;
   }
+  .cartmainContainer {
+    margin-top: 19rem;
+    & .product_Container {
+      & .product {
+        flex-direction: column;
+        height:fit-content;
+        width: 35rem;
+        padding: 2rem;
+
+        & .left-Container {
+          flex-direction: column;
+          align-items: center;
+
+          & .productImage {
+            width: 22rem;
+            height: 25rem;
+          }
+        }
+      }
+    }
+    & .CalculatePrice {
+      width: 80%;
+    }
+  }
+
 }
 
 @media screen and (width < 330px) {
