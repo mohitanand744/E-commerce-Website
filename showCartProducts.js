@@ -6,7 +6,7 @@ import { getLocalStorageData } from "./getLocalStorageData";
 import { quantityToggleLs } from "./quantityToggleLs";
 import { removeCart } from "./removeCart";
 import { totalPriceCal } from "./totalPriceCal";
-
+import { viewFullDetails } from "./viewFullDetails";
 
 let localStorageData = getLocalStorageData();
 
@@ -21,7 +21,7 @@ const prodTemplate = document.querySelector("#cartProduct");
 
 filterCartProducts.forEach((prod) => {
   let { price, description, image, id } = prod;
-  
+
   const cartTemplate = document.importNode(prodTemplate.content, true);
 
   description = description.split(" ");
@@ -40,19 +40,25 @@ filterCartProducts.forEach((prod) => {
   cartTemplate.querySelector(".quentity").innerText = quantity;
   cartTemplate.querySelector("#cart").setAttribute("id", `cart${id}`);
 
+  let productCart = cartTemplate.querySelector(`#cart${id}`);
+
+  productCart.addEventListener("click", () => {
+    viewFullDetails(id);
+  });
+
   cartTemplate
     .querySelector(".quentity_Container")
     .addEventListener("click", (e) => {
       e.stopPropagation();
       quantityToggleLs(e, id, price);
     });
-    
-    cartTemplate.querySelector(".deleteBtn").addEventListener("click", () => {
-      removeCart(id);
+
+  cartTemplate.querySelector(".deleteBtn").addEventListener("click", () => {
+    removeCart(id);
   });
 
   cartProdContainer.append(cartTemplate);
 });
 
 updatedCartValue();
-totalPriceCal()
+totalPriceCal();
