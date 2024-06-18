@@ -53,7 +53,8 @@ filterCartProducts.forEach((prod) => {
       quantityToggleLs(e, id, price);
     });
 
-  cartTemplate.querySelector(".deleteBtn").addEventListener("click", () => {
+  cartTemplate.querySelector(".deleteBtn").addEventListener("click", (e) => {
+e.stopPropagation();
     removeCart(id);
   });
 
