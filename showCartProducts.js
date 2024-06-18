@@ -3,6 +3,8 @@ import "./mediaquery.css";
 import { updatedCartValue } from "./updatedCartValue";
 import products from "./fashion.json";
 import { getLocalStorageData } from "./getLocalStorageData";
+import { quantityToggleLs } from "./quantityToggleLs";
+import { removeCart } from "./removeCart";
 
 updatedCartValue();
 
@@ -22,14 +24,32 @@ filterCartProducts.forEach((prod) => {
 
   const cartTemplate = document.importNode(prodTemplate.content, true);
 
-  description = description.split(" ")
+  description = description.split(" ");
 
-  description = description.slice(0, 9).join(" ")
+  description = description.slice(0, 9).join(" ");
+
+  let existingProduct = localStorageData.find((prod) => prod.id === id);
+
+  price = existingProduct.price;
+  let quantity = existingProduct.quantity;
 
   cartTemplate.querySelector("img").src = image;
   cartTemplate.querySelector(".price").innerText = `₹${price}`;
   cartTemplate.querySelector(".org-price").innerText = `₹${price * 2}`;
   cartTemplate.querySelector(".desc").innerText = `${description}...`;
+  cartTemplate.querySelector(".quentity").innerText = quantity;
+  cartTemplate.querySelector("#cart").setAttribute("id", `cart${id}`);
+
+  cartTemplate
+    .querySelector(".quentity_Container")
+    .addEventListener("click", (e) => {
+      e.stopPropagation();
+      quantityToggleLs(e, id, price);
+    });
+
+  cartTemplate.querySelector(".deleteBtn").addEventListener("click", () => {
+    removeCart(id);
+  });
 
   cartProdContainer.append(cartTemplate);
 });
