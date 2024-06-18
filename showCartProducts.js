@@ -5,8 +5,8 @@ import products from "./fashion.json";
 import { getLocalStorageData } from "./getLocalStorageData";
 import { quantityToggleLs } from "./quantityToggleLs";
 import { removeCart } from "./removeCart";
+import { totalPriceCal } from "./totalPriceCal";
 
-updatedCartValue();
 
 let localStorageData = getLocalStorageData();
 
@@ -21,7 +21,7 @@ const prodTemplate = document.querySelector("#cartProduct");
 
 filterCartProducts.forEach((prod) => {
   let { price, description, image, id } = prod;
-
+  
   const cartTemplate = document.importNode(prodTemplate.content, true);
 
   description = description.split(" ");
@@ -46,10 +46,13 @@ filterCartProducts.forEach((prod) => {
       e.stopPropagation();
       quantityToggleLs(e, id, price);
     });
-
-  cartTemplate.querySelector(".deleteBtn").addEventListener("click", () => {
-    removeCart(id);
+    
+    cartTemplate.querySelector(".deleteBtn").addEventListener("click", () => {
+      removeCart(id);
   });
 
   cartProdContainer.append(cartTemplate);
 });
+
+updatedCartValue();
+totalPriceCal()

@@ -1,5 +1,6 @@
 import { emptyCart } from "./emptyCart";
 import { getLocalStorageData } from "./getLocalStorageData";
+import { totalPriceCal } from "./totalPriceCal";
 import { updatedCartValue } from "./updatedCartValue";
 
 export let removeCart = (id) => {
@@ -16,4 +17,5 @@ export let removeCart = (id) => {
 
   updatedCartValue();
   emptyCart();
+  totalPriceCal();
 };

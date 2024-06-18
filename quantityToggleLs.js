@@ -1,4 +1,5 @@
 import { getLocalStorageData } from "./getLocalStorageData";
+import { totalPriceCal } from "./totalPriceCal";
 
 export let quantityToggleLs = (e, id, price) => {
   let localStorageData = getLocalStorageData();
@@ -26,4 +27,6 @@ export let quantityToggleLs = (e, id, price) => {
   );
 
   localStorage.setItem("cartData", JSON.stringify(updatedData));
+
+  totalPriceCal();
 };
