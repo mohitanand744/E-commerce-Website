@@ -1,4 +1,5 @@
 import { addToCart } from "./addToCart";
+import { quantityToggle } from "./quantityToggle";
 import { viewFullDetails } from "./viewFullDetails";
 
 let showMenT_shirtProductContainer = document.querySelector(
@@ -43,6 +44,13 @@ export let showMenT_shirt = (MenT_shirt) => {
       e.stopPropagation();
       addToCart(id);
     });
+
+    cartTemplateClone
+      .querySelector(".quentity_Container")
+      .addEventListener("click", (e) => {
+        e.stopPropagation();
+        quantityToggle(e, id)
+      });
 
     showMenT_shirtProductContainer.append(cartTemplateClone);
   });

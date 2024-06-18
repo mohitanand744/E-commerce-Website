@@ -1,4 +1,5 @@
 import { addToCart } from "./addToCart";
+import { quantityToggle } from "./quantityToggle";
 import { viewFullDetails } from "./viewFullDetails";
 
 export let womenT_shirt = (womentshirt) => {
@@ -37,6 +38,13 @@ export let womenT_shirt = (womentshirt) => {
       .addEventListener("click", (e) => {
         e.stopPropagation();
         addToCart(id);
+      });
+
+    cloneProductCart
+      .querySelector(".quentity_Container")
+      .addEventListener("click", (e) => {
+        e.stopPropagation();
+        quantityToggle(e, id);
       });
 
     productContainer.append(cloneProductCart);

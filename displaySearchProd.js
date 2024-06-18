@@ -1,3 +1,5 @@
+import { addToCart } from "./addToCart";
+import { quantityToggle } from "./quantityToggle";
 import { viewFullDetails } from "./viewFullDetails";
 
 export const displaySearchProd = (prod, inputValue) => {
@@ -42,15 +44,5 @@ export const displaySearchProd = (prod, inputValue) => {
     });
 
     prodContainer.append(templCart);
-
-    templCart
-      .querySelector(".quentity_Container")
-      .addEventListener("click", (e) => {
-        e.stopPropagation();
-      });
-
-    templCart.querySelector(".addtocard").addEventListener("click", (e) => {
-      e.stopPropagation();
-    });
   });
 };

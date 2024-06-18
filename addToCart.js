@@ -1,4 +1,5 @@
 import { getLocalStorageData } from "./getLocalStorageData";
+import { updatedCartValue } from "./updatedCartValue";
 
 export const addToCart = (id) => {
   let currCart = document.querySelector(`#cart${id}`);
@@ -14,6 +15,21 @@ export const addToCart = (id) => {
 
   let existingProduct = localStorageData.find((prod) => prod.id === id);
 
+  if (existingProduct && quantity > 1) {
+    quantity = existingProduct.quantity + quantity;
+    console.log(quantity);
+    price = price * quantity;
+    console.log(price);
+
+    let updatedData = { quantity, price, id };
+
+    updatedData = localStorageData.map((prod) =>
+      prod.id === id ? updatedData : prod
+    );
+
+    localStorage.setItem("cartData", JSON.stringify(updatedData));
+  }
+
   if (existingProduct) {
     return false;
   }
@@ -23,4 +39,6 @@ export const addToCart = (id) => {
   localStorageData.push(CartData);
 
   localStorage.setItem("cartData", JSON.stringify(localStorageData));
+
+  updatedCartValue()
 };

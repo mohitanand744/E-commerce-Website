@@ -10,6 +10,7 @@ import { showMenFootwear } from "./showMenFootwear";
 import { womenT_shirt } from "./womenT_shirt";
 import { scrollProducts } from "./ScrollContainer";
 import { searchFunctionality } from "./searchFunctionality";
+import { updatedCartValue } from "./updatedCartValue";
 
 document.addEventListener("DOMContentLoaded", () => {
   imageSlider();
@@ -21,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   showMenFootwear(products);
   womenT_shirt(products);
   searchFunctionality(products);
+  updatedCartValue();
 });
 
 

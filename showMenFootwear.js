@@ -1,4 +1,5 @@
 import { addToCart } from "./addToCart";
+import { quantityToggle } from "./quantityToggle";
 import { viewFullDetails } from "./viewFullDetails";
 
 export let showMenFootwear = (menFootwear) => {
@@ -42,6 +43,7 @@ export let showMenFootwear = (menFootwear) => {
       .querySelector(".quentity_Container")
       .addEventListener("click", (e) => {
         e.stopPropagation();
+        quantityToggle(e, id);
       });
 
     cartTemplate.querySelector(".addtocard").addEventListener("click", (e) => {

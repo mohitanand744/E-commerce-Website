@@ -1,4 +1,5 @@
 import { addToCart } from "./addToCart";
+import { quantityToggle } from "./quantityToggle";
 import { viewFullDetails } from "./viewFullDetails";
 
 let womenFootwearproductContainer = document.querySelector(
