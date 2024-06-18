@@ -145,6 +145,7 @@
   .cartmainContainer {
     margin-top: 19rem;
     & .product_Container {
+        order:2;
       & .product {
         flex-direction: column;
         height: 52rem;
@@ -162,6 +163,7 @@
       }
     }
     & .CalculatePrice {
+      order:1;
       width: 80%;
     }
   }
