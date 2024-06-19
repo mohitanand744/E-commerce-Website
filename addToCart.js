@@ -1,4 +1,5 @@
 import { getLocalStorageData } from "./getLocalStorageData";
+import { showTost } from "./showToast";
 import { updatedCartValue } from "./updatedCartValue";
 
 export const addToCart = (id) => {
@@ -39,4 +40,5 @@ export const addToCart = (id) => {
   localStorage.setItem("cartData", JSON.stringify(localStorageData));
 
   updatedCartValue()
+  showTost("add")
 };

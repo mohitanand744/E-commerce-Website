@@ -90,6 +90,10 @@
   html {
     font-size: 55.5%;
   }
+  .cartmainContainer {
+    padding-bottom: 3rem;
+}
+
   nav {
     box-shadow: none;
     border-radius: 0;
@@ -205,7 +209,7 @@
     & .product_Container {
       & .cartEmpty {
         padding: 2rem;
-        width: 46rem;
+        width: 56rem;
       }
     }
     & .CalculatePrice {
@@ -257,13 +261,6 @@
   .slides-container {
     height: 37vh;
     top: 110px;
-  }
-  .cartmainContainer {
-    & .product_Container {
-      & .cartEmpty {
-        width: 41rem;
-      }
-    }
   }
 
   .responsive-search-container {

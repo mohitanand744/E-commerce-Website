@@ -62,6 +62,25 @@ a {
   text-decoration: none;
 }
 
+& .toast {
+  position: fixed;
+  top: 12rem;
+  right: 5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  background: #303030;
+  padding: 0.5rem 3rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  animation: toastSlide 3s linear;
+  -webkit-animation: toastSlide 3s linear;
+  z-index: 9999999;
+}
+
 /***** End Repeat code *****/
 
 nav {
@@ -1401,13 +1420,14 @@ main {
   flex-wrap: wrap;
 
   & .product_Container {
+    width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #fff;
     padding: 2rem;
-    margin: 1.5rem;
+    margin: 1.5rem auto;
     border-radius: 4rem;
     -webkit-border-radius: 4rem;
     -moz-border-radius: 4rem;
@@ -1547,6 +1567,7 @@ main {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     height: fit-content;
     border-radius: 3rem;
+    
     -webkit-border-radius: 3rem;
     -moz-border-radius: 3rem;
     -ms-border-radius: 3rem;
@@ -1670,6 +1691,33 @@ footer {
     -moz-transform: translateX(8px);
     -ms-transform: translateX(8px);
     -o-transform: translateX(8px);
+  }
+}
+
+@keyframes toastSlide {
+  0% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    opacity: 0;
+  }
+  20% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    opacity: 0.4;
   }
 }
 /***** End Animations *****/
