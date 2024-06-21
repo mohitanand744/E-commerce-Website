@@ -25,7 +25,6 @@ let welcomeContainer = document.getElementById("welcome");
 readyBtn.addEventListener("click", () => {
   var audio = document.getElementById("myAudio");
   audio.play();
-
   welcomeContainer.style.height = "0%";
 });
 

@@ -92,7 +92,7 @@
   }
   .cartmainContainer {
     padding-bottom: 3rem;
-}
+  }
 
   nav {
     box-shadow: none;
@@ -145,11 +145,15 @@
       }
     }
   }
-
+  #welcome {
+    & .btn {
+      font-size: 2.3rem;
+    }
+  }
   .cartmainContainer {
     margin-top: 19rem;
     & .product_Container {
-        order:2;
+      order: 2;
       & .product {
         flex-direction: column;
         height: 52rem;
@@ -167,7 +171,7 @@
       }
     }
     & .CalculatePrice {
-      order:1;
+      order: 1;
       width: 80%;
     }
   }
@@ -208,8 +212,7 @@
   .cartmainContainer {
     & .product_Container {
       & .cartEmpty {
-        padding: 2rem;
-        width: 56rem;
+        width: 42rem;
       }
     }
     & .CalculatePrice {
@@ -231,7 +234,7 @@
     & .product_Container {
       & .product {
         flex-direction: column;
-        height:fit-content;
+        height: fit-content;
         width: 35rem;
         padding: 2rem;
 
@@ -250,7 +253,6 @@
       width: 80%;
     }
   }
-
 }
 
 @media screen and (width < 330px) {
