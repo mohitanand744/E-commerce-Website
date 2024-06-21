@@ -24,14 +24,9 @@ let welcomeContainer = document.getElementById("welcome");
 
 readyBtn.addEventListener("click", () => {
   var audio = document.getElementById("myAudio");
-  audio
-    .play()
-    .then(() => {
-      welcomeContainer.style.height = "0%";
-    })
-    .catch((error) => {
-      console.error("Audio playback failed: ", error);
-    });
+  audio.play();
+
+  welcomeContainer.style.height = "0%";
 });
 
 document.addEventListener("DOMContentLoaded", () => {
