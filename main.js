@@ -17,6 +17,23 @@ import { loader } from "./loader";
 
 loader();
 
+// ! Welcome
+
+let readyBtn = document.querySelector("#welcome .btn");
+let welcomeContainer = document.getElementById("welcome");
+
+readyBtn.addEventListener("click", () => {
+  var audio = document.getElementById("myAudio");
+  audio
+    .play()
+    .then(() => {
+      welcomeContainer.style.height = "0%";
+    })
+    .catch((error) => {
+      console.error("Audio playback failed: ", error);
+    });
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   imageSlider();
   scrollProducts();
