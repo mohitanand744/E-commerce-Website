@@ -71,17 +71,42 @@ a {
   color: #fff;
   background: #303030;
   padding: 0.5rem 3rem;
-  border-radius: 2rem;
-  -webkit-border-radius: 2rem;
-  -moz-border-radius: 2rem;
-  -ms-border-radius: 2rem;
-  -o-border-radius: 2rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
   animation: toastSlide 3s linear;
   -webkit-animation: toastSlide 3s linear;
   z-index: 9999999;
 }
 
 /***** End Repeat code *****/
+
+
+/***** preloader *****/
+
+#preloader {
+  background: #ffffff ;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+
+  & img{
+    max-width: 80rem;
+  }
+}
+
+/***** End preloader *****/
 
 nav {
   width: 100%;

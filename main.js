@@ -12,6 +12,15 @@ import { scrollProducts } from "./ScrollContainer";
 import { searchFunctionality } from "./searchFunctionality";
 import { updatedCartValue } from "./updatedCartValue";
 
+
+// ! loader function
+
+let loader = document.getElementById("preloader");
+window.addEventListener("load",  () => {
+  loader.style.display = "none";
+});
+
+
 document.addEventListener("DOMContentLoaded", () => {
   imageSlider();
   scrollProducts();
