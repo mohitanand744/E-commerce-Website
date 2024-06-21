@@ -7,6 +7,11 @@ import { quantityToggleLs } from "./quantityToggleLs";
 import { removeCart } from "./removeCart";
 import { totalPriceCal } from "./totalPriceCal";
 import { viewFullDetails } from "./viewFullDetails";
+import { loader } from "./loader";
+
+// ! Loader
+
+loader();
 
 let localStorageData = getLocalStorageData();
 
@@ -54,7 +59,7 @@ filterCartProducts.forEach((prod) => {
     });
 
   cartTemplate.querySelector(".deleteBtn").addEventListener("click", (e) => {
-e.stopPropagation();
+    e.stopPropagation();
     removeCart(id);
   });
 

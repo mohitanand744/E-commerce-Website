@@ -11,15 +11,11 @@ import { womenT_shirt } from "./womenT_shirt";
 import { scrollProducts } from "./ScrollContainer";
 import { searchFunctionality } from "./searchFunctionality";
 import { updatedCartValue } from "./updatedCartValue";
-
+import { loader } from "./loader";
 
 // ! loader function
 
-let loader = document.getElementById("preloader");
-window.addEventListener("load",  () => {
-  loader.style.display = "none";
-});
-
+loader();
 
 document.addEventListener("DOMContentLoaded", () => {
   imageSlider();
@@ -33,5 +29,3 @@ document.addEventListener("DOMContentLoaded", () => {
   searchFunctionality(products);
   updatedCartValue();
 });
-
-
