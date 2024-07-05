@@ -17,17 +17,6 @@ import { loader } from "./loader";
 
 loader();
 
-// ! Welcome
-
-let readyBtn = document.querySelector("#welcome .btn");
-let welcomeContainer = document.getElementById("welcome");
-
-readyBtn.addEventListener("click", () => {
-  var audio = document.getElementById("myAudio");
-  audio.play();
-  welcomeContainer.style.height = "0%";
-});
-
 document.addEventListener("DOMContentLoaded", () => {
   imageSlider();
   scrollProducts();
